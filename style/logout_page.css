@@ -1,4 +1,4 @@
-div {
+.logout {
     width: 100vw;
     height: 100vh;
     background-color: goldenrod;
@@ -6,7 +6,7 @@ div {
     position: relative;
 }
 
-div>div {
+.logout div {
     width: 900px;
     height: 100px;
     color: black;
@@ -21,7 +21,7 @@ div>div {
     margin: auto;
 }
 
-div>div>h2 {
+.logout div h2 {
     text-align: center;
     font-size: 42px;
     font-weight: 800;

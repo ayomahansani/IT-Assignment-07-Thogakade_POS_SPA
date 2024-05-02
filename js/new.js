@@ -4,6 +4,8 @@ $('#customer-section').css({display: 'none'});
 $('#item-section').css({display: 'none'});
 $('#order-section').css({display: 'none'});
 $('#login-section').css({display: 'none'});
+$('#register-section').css({display: 'none'});
+$('#logout-section').css({display: 'none'});
 
 
 /* start home nav management */
@@ -13,6 +15,8 @@ $('#nav-home').on("click", function () {
     $('#item-section').css({display: 'none'});
     $('#order-section').css({display: 'none'});
     $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
 });
 /* end home nav management */
 
@@ -24,6 +28,8 @@ $('#nav-customers').on("click", function () {
     $('#item-section').css({display: 'none'});
     $('#order-section').css({display: 'none'});
     $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
 });
 /* end customers nav management */
 
@@ -35,6 +41,8 @@ $('#nav-items').on("click", function () {
     $('#item-section').css({display: 'block'});
     $('#order-section').css({display: 'none'});
     $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
 });
 /* end items nav management */
 
@@ -46,6 +54,8 @@ $('#nav-orders').on("click", function () {
     $('#item-section').css({display: 'none'});
     $('#order-section').css({display: 'block'});
     $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
 });
 /* end orders nav management */
 
@@ -58,12 +68,29 @@ $('ul').on("click", 'span', function () {
 /* end adding active class on click */
 
 
+/* start login nav management */
 $('#btn-login').on("click", function () {
     $('#home-section').css({display: 'none'});
     $('#customer-section').css({display: 'none'});
     $('#item-section').css({display: 'none'});
     $('#order-section').css({display: 'none'});
     $('#login-section').css({display: 'block'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
     $('#navbar-section').css({display: 'none'});
 });
-/* end orders nav management */
+/* end login nav management */
+
+
+/* start register nav management */
+$('#btn-register').on("click", function () {
+    $('#home-section').css({display: 'none'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'block'});
+    $('#logout-section').css({display: 'none'});
+    $('#navbar-section').css({display: 'none'});
+});
+/* end register nav management */

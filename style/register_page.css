@@ -4,37 +4,37 @@
     background-color: rgba(218, 165, 32, 0.91);
 }
 
-form {
+.background form {
     width: 40%;
     margin: auto;
     padding-top: 80px;
     opacity: 0.8;
 }
 
-p {
+.background form p {
     font-size: 12px;
     margin-left: 240px;
     padding-top: 5px;
 }
 
-span {
+.background form span {
     font-size: 14px;
     margin-left: 100px;
 }
 
-.bg {
+.background form .bg {
     background-color: papayawhip;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.58);
 }
 
-form .btn {
+.background form .btn {
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
 }
 
-input {
+.background form input {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
 }
 
-input:hover{
+.background form input:hover{
     border: 1px solid goldenrod;
 }
