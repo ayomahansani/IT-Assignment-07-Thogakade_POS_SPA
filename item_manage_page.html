@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Manage Page</title>
+
+    <link rel="stylesheet" href="assets/normalize-css.css">
+    <link rel="stylesheet" href="style/item_page.css">
+
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+
+    <div class="container-fluid">
+
+        <img class="logo" src="assets/icon/icons8-grocery-64.png" alt="grocery-image">
+
+        <a class="navbar-brand me-auto" href="#">FOOD CORNER</a>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Food Corner</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" aria-current="page" href="home_page.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="customer_manage_page.html">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2 active" href="item_manage_page.html">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="order_manage_page.html">Orders</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <a href="login_page.html" class="login-button">
+            Sign In
+            <span class="buttons"><i class="bi bi-person-bounding-box"></i></span>
+        </a>
+        <a href="register_page.html" class="login-button">
+            Sign Up
+            <span class="buttons"><i class="bi bi-person-plus-fill"></i></span>
+        </a>
+        <a href="logout_page.html" class="login-button">
+            Log Out
+            <span class="buttons"><i class="bi bi-fast-forward-circle-fill"></i></span>
+        </a>
+        <!-- End Buttons -->
+
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- End Navbar Toggler -->
+
+    </div>
+
+</nav>
+<!-- End Navbar -->
+
+
+<!-- Hero Section -->
+    <section class="hero-section">
+
+        <!-- Background Image -->
+        <img class="home-image " src="assets/img/2149565242.jpg" alt="background-image">
+        <!-- End Background Image -->
+
+        <!-- Title Section -->
+        <div class="main-title me-auto">
+            <img id="itemImg" src="assets/icon/icons8-ingredients-26.png" alt="item-image">
+            <h6 id="title">Items</h6>
+        </div>
+        <!-- End Title Section -->
+
+        <!-- Main Section -->
+        <div class="main-section">
+
+            <!-- up section -->
+            <div class="search-item">
+
+                <form class="row">
+
+                    <!-- item search -->
+                    <div class="col-8 col-sm-6 col-md-4 col-lg-4 pb-4">
+                        <label for="search" class="form-label fw-semibold">
+                            Search Item
+                        </label>
+                        <input type="search" class="form-control search-input" id="search" placeholder="Input Code / Name Here">
+                    </div>
+                    <div class="col-4 col-sm-6 col-md-3 col-lg-3 pb-4">
+                        <button type="submit" class="btn btn-warning search-btn">
+                            Search
+                            <span class="search"><i class="bi bi-search"></i></span>
+                        </button>
+                    </div>
+                    <!-- End item search -->
+
+                    <!-- buttons -->
+                    <div class="col-6 col-sm-4 col-md-2 col-lg-2 pb-1">
+                        <a href="" id="newItemBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#newItemModal">
+                            <span class="add-to-cart mr-3"><i class="bi bi-plus-circle-fill"></i></span>
+                            New Item
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2 col-lg-2 pb-1">
+                        <a href="" id="viewAllItem" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewAllItemsModal">
+                            <span class="view"><i class="bi bi-eye-fill"></i></span>
+                            View All Items
+                        </a>
+                    </div>
+                    <!-- end buttons -->
+
+                    <!-- right image -->
+                    <div class="col-12 col-sm-4 col-md-1 col-lg-1 pb-1">
+                        <img src="assets/icon/icons8-paper-bag-64.png" class="item-page-photo" alt="item-bag-image">
+                    </div>
+                    <!-- end right image -->
+
+                </form>
+
+            </div>
+            <!-- end up section -->
+
+            <!-- item table -->
+            <div class="item-table">
+
+                <table class="table table-warning table-striped table-bordered border-dark table-hover table-sm">
+                    <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Code</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                    </tr>
+                    </thead>
+
+                    <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">I001</th>
+                        <th>Maliban Chocolate Biscuit</th>
+                        <th>Rs: 150.00</th>
+                        <th>30</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">I002</th>
+                        <th>Kirisamba 5kg</th>
+                        <th>Rs: 1200.25</th>
+                        <th>11</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">I003</th>
+                        <th>Sunlight 120g</th>
+                        <th>Rs: 130.00</th>
+                        <th>24</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">I004</th>
+                        <th>White Sugar 500g</th>
+                        <th>Rs: 345.75</th>
+                        <th>23</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">I005</th>
+                        <th>Coca Cola 2l</th>
+                        <th>Rs :560.00</th>
+                        <th>50</th>
+                    </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+            <!-- end item table -->
+
+        </div>
+        <!-- End Main Section -->
+
+</section>
+<!-- End Hero Section -->
+
+
+
+<!------------------------- Modals -------------------------->
+
+<!-- Add New Item Modal -->
+<div class="modal fade" id="newItemModal" tabindex="-1" aria-labelledby="newItemModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h1 class="modal-title fs-5 text-center" id="newItemModalLabel">
+                    New Item
+                    <span class="new-item"><i class="bi bi-bag-plus-fill"></i></span>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <form>
+
+                    <div class="mb-3">
+                        <label for="itemCode" class="form-label fw-semibold">Item Code</label>
+                        <input type="text" class="form-control search-input" id="itemCode">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="itemName" class="form-label fw-semibold">Item Name</label>
+                        <input type="text" class="form-control search-input" id="itemName">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="itemPrice" class="form-label fw-semibold">Item Price</label>
+                        <input type="text" class="form-control search-input" id="itemPrice">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="qty" class="form-label fw-semibold">Item Quantity</label>
+                        <input type="text" class="form-control search-input" id="qty">
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning">
+                    Save
+                    <span><i class="bi bi-save"></i></span>
+                </button>
+                <button type="button" class="btn btn-warning">
+                    Update
+                    <span><i class="bi bi-pencil-square"></i></span>
+                </button>
+                <button type="button" class="btn btn-warning">
+                    Delete
+                    <span><i class="bi bi-trash3"></i></span>
+                </button>
+                <button type="button" class="btn btn-warning">
+                    Clear
+                    <span><i class="bi bi-backspace-reverse"></i></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End Add New Item Modal -->
+
+
+<!-- View All Items Modal -->
+<div class="modal fade" id="viewAllItemsModal" tabindex="-1" aria-labelledby="viewAllItemsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header text-center">
+                <h1 class="modal-title fs-5" id="viewAllItemsModalLabel">
+                    All Items
+                    <span class="all-items"><i class="bi bi-box-seam-fill"></i></span>
+                    <span><i class="bi bi-box-seam-fill"></i></span>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+
+                <h6>Maliban Chocolate Biscuit</h6>
+                <h6>Kirisamba 5kg</h6>
+                <h6>Sunlight 120g</h6>
+                <h6>White Sugar 500g</h6>
+                <h6>Prima Noodle 250g</h6>
+                <h6>Soya Sourse 500ml</h6>
+                <h6>Penadol</h6>
+                <h6>Kohomba Baby Shampoo</h6>
+                <h6>Basmathi 10kg</h6>
+                <h6>Tuna Saman 200g</h6>
+                <h6>Cream Cracker Buddy</h6>
+                <h6>Coca Cola 2l</h6>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End View All Items Modal -->
+
+<!------------------------- End Modals -------------------------->
+
+
+<!-- Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,2466 @@
+.navbar {
+    background-color: papayawhip;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 8px 8px 6px black;
+    opacity: 0.8;
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+    background-color: gold;
+    padding: 8px 20px;
+    margin: 5px 5px;
+}
+
+.navbar .login-button {
+    background-color: gold;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    margin-right: 15px;
+    box-shadow: 4px 4px 7px black;
+}
+
+.login-button:hover {
+    background-color: goldenrod;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:focus, btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar .nav-link {
+    color: #8a8a8a;
+    font-weight: 700;
+    position: relative;
+}
+
+.navbar .nav-link:hover, .nav-link.active {
+    color: green;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: gold;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.home-image {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-section::before {
+    background-color: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.card-set {
+    width: 30%;
+    height: 10%;
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    right: 0;
+    left: 0;
+}
+
+.card-set .card {
+    background-color: papayawhip;
+    box-shadow: 4px 4px 7px black;
+    opacity: 0.7;
+}
+
+.card-set .card .card-body img {
+    height: 100px;
+    object-fit: contain;
+    transition: 0.6s ;
+}
+
+.card-set .card .card-body p {
+    text-shadow: 1px 1px 1px lightgrey;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-set .card .card-body h4 {
+    color: green;
+}
+
+.card-set .card .card-body a.my-btn {
+    width: 200px;
+    box-shadow: 3px 3px 8px black;
+    text-align: center;
+    border: none;
+}
+
+.card-set .card .card-body a.my-btn:hover {
+    background-color: goldenrod;
+}
+
+.card-set .card:hover .card-body img {
+    transform: scale(1.5);
+}
+
+.navbar .buttons {
+    margin: 0.3em;
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1064px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 8px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 45px;
+        height: 50px;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1031px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 6px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1022px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 6px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+
+    .navbar .buttons {
+        margin: 0.01em;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1002px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .offcanvas-title {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .btn-close {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .navbar .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 20px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 30px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+
+    .hero-section .card-set {
+        width: 90%;
+        height: 10%;
+        position: absolute;
+        top: 40%;
+        bottom: 40%;
+        right: 0;
+        left: 0;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 160px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 837px) {
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .offcanvas-title {
+        font-weight: 700;
+        background-color: gold;
+        padding: 8px 20px;
+        margin: 5px 5px;
+    }
+
+    .offcanvas-header .btn-close {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .navbar .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 15px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+
+    .hero-section .card-set {
+        width: 90%;
+        height: 10%;
+        position: absolute;
+        top: 40%;
+        bottom: 40%;
+        right: 0;
+        left: 0;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 160px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 200px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 720px) {
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 215vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 215%;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 200px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        height: 50px;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 658px) {
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 215vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 215%;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 200px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 619px) {
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 215vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 215%;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 5px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 8px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 200px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .navbar .navbar-brand {
+        font-weight: 700;
+        background-color: gold;
+        padding: 6px 5px;
+        margin: 1px 1px;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.005em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 588px) {
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 215vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 215%;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 12px;
+        padding: 3px 8px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 12px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 200px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: papayawhip;
+        /*padding: 6px 5px;*/
+        /*margin: 1px 1px;*/
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 533px) {
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 190vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 190%;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 13px;
+        padding: 3px 5px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 12px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .card-set {
+        width: 10%;
+        height: 10%;
+        position: absolute;
+        top: 10%;
+        bottom: 40%;
+        right: 0;
+        left: 0;
+    }
+
+    .card-set .card .card-body img {
+        height: 60px;
+        object-fit: contain;
+        transition: 0.6s ;
+    }
+
+    .card-set .card .card-body p {
+        text-shadow: 1px 1px 1px lightgrey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .card-set .card .card-body h4 {
+        font-size: 18px;
+        color: green;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 200px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: papayawhip;
+        /*padding: 6px 5px;*/
+        /*margin: 1px 1px;*/
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+
+
+/* -----------Special On Customer Form----------- */
+
+.main-title {
+    width: 97.2%;
+    background-color: blanchedalmond;
+    height: 35px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 0.5rem;
+    opacity: 0.8;
+
+    position: absolute;
+
+    top: 14%;
+}
+
+#customerImg {
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+
+    bottom: 12%;
+    left: 1.5%;
+}
+
+#title {
+    font-weight: 500;
+    position: absolute;
+
+    left: 4%;
+}
+
+.main-section {
+    background-color: papayawhip;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    opacity: 0.8;
+
+    position: absolute;
+
+    width: 97.2%;
+    height: 73%;
+    top: 21%;
+}
+
+.search-customer {
+    border-radius: 15px;
+    margin: 1vw;
+    padding: 1em 1em 1.5em 2em ;
+    background-color: burlywood;
+    box-shadow: 3px 3px 8px black;
+    opacity: 0.8;
+}
+
+form .search-btn {
+    width: 110px;
+    height: 35px;
+    border: none;
+    margin-top: 2em;
+    font-weight: 500;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+form .search-btn:hover {
+    background-color: goldenrod;
+}
+
+form .search-input {
+    border: none;
+    background-color: #eed8c7;
+}
+
+input {
+    height: 35px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+input:hover{
+    border: 3px solid green;
+}
+
+#newCusBtn {
+    font-weight: 500;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    margin-top: 2em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+#newCusBtn:hover {
+    background-color: #176e17;
+}
+
+#viewAllCus {
+    font-weight: 500;
+    background-color: #b67244;
+    color: white;
+    border: none;
+    margin-top: 2em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+#viewAllCus:hover {
+    background-color: #a45b33;
+}
+
+.modal {
+    opacity: 0.9;
+}
+
+.modal .modal-body {
+    background-color: #d9c0a0;
+    color: #176e17;
+}
+
+.modal .modal-footer {
+    background-color: #b6986c;
+}
+
+.modal .modal-footer .btn {
+    border: none;
+    width: 98px;
+    height: 40px;
+    margin: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+.modal .modal-footer .btn:hover {
+    background-color: goldenrod;
+}
+
+.modal .modal-body .form-label {
+    color: #176e17;
+}
+
+.modal .modal-header {
+    background-color: #1a791a;
+}
+
+.modal .modal-header .modal-title {
+    font-weight: 800;
+    color: gold;
+}
+
+.customer-table {
+    position: absolute;
+    height: 52%;
+    width: 96.5%;
+    border-radius: 15px;
+    margin: 1vw;
+    margin-top: 2vw;
+    padding: 2em 2em 2em 2em ;
+    box-shadow: 3px 3px 8px black;
+    background-color: burlywood;
+    opacity: 0.7;
+}
+
+.navbar .buttons {
+    margin: 0.3em;
+}
+
+.search {
+    margin-left: 0.5rem;
+}
+
+.searching-customer {
+    margin: 0.5rem;
+}
+
+.add-to-cart {
+    margin: 1rem;
+}
+
+.view {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+.new-customer, .all-customers {
+    margin-left: 0.8rem;
+}
+
+.buttons {
+    margin-left: 0.2rem;
+}
+
+.customer-page-photo {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1436px) {
+
+    .add-to-cart {
+        margin: 1rem;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1365px) {
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .customer-page-photo {
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1300px) {
+
+    .main-title {
+        width: 97%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 97%;
+        height: 73%;
+        top: 21%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1200px) {
+
+    .main-title {
+        width: 96.5%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 96.5%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 5%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1100px) {
+
+    .main-title {
+        width: 96.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 96.3%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 5%;
+    }
+
+    .customer-page-photo {
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 1000px) {
+
+    .main-title {
+        width: 96%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 96%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+    .customer-page-photo {
+        margin-top: 2.5rem;
+        margin-left: 0.5rem;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 900px) {
+
+    .main-title {
+        width: 95.5%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 95.5%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+    .customer-page-photo {
+        margin-top: 2.5rem;
+        margin-left: 0.2rem;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 800px) {
+
+    .main-title {
+        width: 95.1%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 95.1%;
+        height: 73%;
+        top: 21%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 6%;
+    }
+
+    .customer-page-photo {
+        margin-top: 2.5rem;
+        margin-left: 0.01rem;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .main-title {
+        width: 95%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 95%;
+        height: 82%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 7%;
+    }
+
+    .customer-page-photo {
+        margin-top: 1.5rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 215px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 46%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 700px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 82%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 215px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 46%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 669px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 115vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 115%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 86%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 215px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 45%;
+        width: 95.5%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 654px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 130vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 130%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 84%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 47%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 637px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 140vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 140%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 84%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 47%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 621px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 140vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 140%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 84%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 52%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 110vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 110%;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 620px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 130vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 130%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 90%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 54%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 601px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 150vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 150%;
+    }
+
+    .main-title {
+        width: 94.3%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 94.3%;
+        height: 98%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 25px;
+        height: 25px;
+
+        position: absolute;
+
+        bottom: 13%;
+        left: 2.5%;
+    }
+
+    #title {
+        font-weight: 500;
+        position: absolute;
+
+        left: 8%;
+    }
+
+    .customer-page-photo {
+        margin-top: 3rem;
+        margin-left: 3.8rem;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 180px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 54%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 2vw;
+        padding: 2em 2em 2em 2em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 575px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 160vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 160%;
+    }
+
+    .main-title {
+        width: 93%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 93%;
+        height: 96%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 20px;
+        height: 20px;
+
+        position: absolute;
+
+        bottom: 25%;
+        left: 4%;
+    }
+
+    #title {
+        font-weight: 500;
+        font-size: 0.9rem;
+        position: absolute;
+
+        left: 10%;
+    }
+
+    .customer-page-photo {
+        display: none;
+    }
+
+    .add-to-cart {
+        margin: 1rem;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 100px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        font-size: 0.9rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 60%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 3vw;
+        padding: 2em 1em 2em 1em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    #newCusBtn {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: forestgreen;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #newCusBtn:hover {
+        background-color: #176e17;
+    }
+
+    #viewAllCus {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: #b67244;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #viewAllCus:hover {
+        background-color: #a45b33;
+    }
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+        font-size: 0.9rem;
+    }
+
+    input:hover{
+        border: 3px solid green;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 533px) {
+
+    .hero-section::before {
+        width: 100vw;
+        height: 130vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 130%;
+    }
+
+    .main-title {
+        width: 93%;
+        background-color: blanchedalmond;
+        height: 35px;
+        margin: 20px;
+        border-radius: 30px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 14%;
+    }
+
+    .main-section {
+        background-color: papayawhip;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        opacity: 0.8;
+
+        position: absolute;
+
+        width: 93%;
+        height: 96%;
+        top: 21%;
+    }
+
+    #customerImg {
+        width: 20px;
+        height: 20px;
+
+        position: absolute;
+
+        bottom: 25%;
+        left: 4%;
+    }
+
+    #title {
+        font-weight: 500;
+        font-size: 0.9rem;
+        position: absolute;
+
+        left: 10%;
+    }
+
+    .customer-page-photo {
+        display: none;
+    }
+
+    .add-to-cart {
+        margin: 1rem;
+    }
+
+    .view {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    form .search-btn {
+        width: 100px;
+        height: 35px;
+        border: none;
+        margin-top: 2em;
+        font-weight: 500;
+        font-size: 0.9rem;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    .customer-table {
+        position: absolute;
+        height: 60%;
+        width: 95%;
+        border-radius: 15px;
+        margin: 1vw;
+        margin-top: 3vw;
+        padding: 2em 1em 2em 1em ;
+        box-shadow: 3px 3px 8px black;
+        background-color: burlywood;
+        opacity: 0.7;
+    }
+
+    #newCusBtn {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: forestgreen;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #newCusBtn:hover {
+        background-color: #176e17;
+    }
+
+    #viewAllCus {
+        font-weight: 500;
+        font-size: 0.9rem;
+        background-color: #b67244;
+        color: white;
+        border: none;
+        margin-top: 2em;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #viewAllCus:hover {
+        background-color: #a45b33;
+    }
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+        font-size: 0.9rem;
+    }
+
+    input:hover{
+        border: 3px solid green;
+    }
+}
+

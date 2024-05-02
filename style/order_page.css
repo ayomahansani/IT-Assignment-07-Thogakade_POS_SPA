@@ -1,0 +1,393 @@
+.navbar {
+    background-color: papayawhip;
+    height: 80px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 8px 8px 6px black;
+    opacity: 0.8;
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+    background-color: gold;
+    padding: 8px 20px;
+    margin: 5px 5px;
+}
+
+.navbar .login-button {
+    background-color: gold;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    margin-right: 15px;
+    box-shadow: 4px 4px 7px black;
+}
+
+.login-button:hover {
+    background-color: goldenrod;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:focus, btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.navbar .nav-link {
+    color: #8a8a8a;
+    font-weight: 700;
+    position: relative;
+}
+
+.navbar .nav-link:hover, .nav-link.active {
+    color: green;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.home-image {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero-section::before {
+    background-color: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.main-title {
+    width: 97.2%;
+    background-color: blanchedalmond;
+    height: 35px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 0.5rem;
+    opacity: 0.8;
+
+    position: absolute;
+
+    top: 14%;
+}
+
+#customerImg {
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+
+    bottom: 12%;
+    left: 1.5%;
+}
+
+#title {
+    font-weight: 500;
+    position: absolute;
+
+    left: 4%;
+}
+
+.main-section {
+    background-color: papayawhip;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    opacity: 0.8;
+
+    position: absolute;
+
+    width: 97.2%;
+    height: 73%;
+    top: 21%;
+}
+
+form .search-input {
+    margin-bottom: 1.2em;
+    border: none;
+    background-color: #eed8c7;
+}
+
+input {
+    height: 35px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+input:hover{
+    border: 3px solid green;
+}
+
+
+
+/* -----------Special On Order Form----------- */
+
+#forms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_div {
+    margin: 1.5rem;
+    background-color: burlywood;
+    position: relative;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
+    opacity: 0.9;
+}
+
+.div_head {
+    margin: 0;
+    padding: 1rem;
+    background-color: #176e17;
+    font-weight: 800;
+    color: gold;
+}
+
+.form {
+    margin-top: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.form .form-label {
+    color: #176e17;
+}
+
+.up_div {
+    display: flex;
+}
+
+.mid_div {
+    display: flex;
+}
+
+.down_div {
+    display: flex;
+}
+
+#orderId, #cusId, #cusAddress, #cusName, #cusPhone,
+#itemCode, #itemPrice, #itemName, #qtyOnH,
+#total, #cash, #discount, #subTotal, #balance{
+    width: 92%;
+}
+
+#addBtn {
+    font-weight: 600;
+    border: none;
+    width: 70%;
+    height: 20%;
+    margin-top: 2rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+#addBtn:hover {
+    background-color: #d39400;
+}
+
+#purchaseBtn, #viewBtn {
+    font-weight: 600;
+    border: none;
+    height: 20%;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+}
+
+#purchaseBtn:hover {
+    background-color: #d39400;
+}
+
+#viewBtn {
+    color: white;
+    background-color: #a97240;
+}
+
+#viewBtn:hover {
+    background-color: #9f5322;
+}
+
+#quantity {
+    width: 40%;
+}
+
+#customers {
+    width: 97%;
+}
+
+#selectItem {
+    width: 92%;
+}
+
+select {
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+}
+
+select:hover {
+    border: 3px solid green;
+}
+
+.modal {
+    opacity: 0.9;
+    width: 90%;
+}
+
+.modal .modal-body {
+    background-color: #be9e75;
+    color: #176e17;
+}
+
+.modal .modal-body .form-label {
+    color: #176e17;
+}
+
+.modal .modal-header {
+    background-color: #1a791a;
+}
+
+.modal .modal-header .modal-title {
+    font-weight: 800;
+    color: gold;
+}
+
+.order-table {
+    opacity: 0.7;
+}
+
+.add-to-cart {
+    margin: 1rem;
+}
+
+.purchase {
+    margin-right: 0.2em;
+}
+
+.view {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.2em;
+}
+
+.calculator {
+    margin-left: 17rem;
+}
+
+.selectItem {
+    margin-left: 15rem;
+}
+
+.invoice {
+    margin-left: 13rem;
+}
+
+.detailsOfOrders {
+    margin-left: 1rem;
+}
+
+.navbar .buttons {
+    margin: 0.3em;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: gold;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 1000px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        width: 50em;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 800px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        width: 30em;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 700px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_div {
+        width: 26em;
+    }
+
+    .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+}
+
+
+
+
