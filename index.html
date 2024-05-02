@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="style/customer_page.css">
   <link rel="stylesheet" href="style/item_page.css">
   <link rel="stylesheet" href="style/order_page.css">
-<!--  <link rel="stylesheet" href="style/login_page.css">-->
+  <link rel="stylesheet" href="style/login_page.css">
 <!--  <link rel="stylesheet" href="style/register_page.css">-->
 <!--  <link rel="stylesheet" href="style/logout_page.css">-->
 
@@ -23,7 +23,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav id="navbar-section" class="navbar navbar-expand-lg fixed-top">
 
   <div class="container-fluid">
 
@@ -60,10 +60,10 @@
     </div>
 
     <!-- Buttons -->
-    <a href="login_page.html" class="login-button">
+    <span id="btn-login" class="login-button">
       Sign In
       <span class="buttons"><i class="bi bi-person-bounding-box"></i></span>
-    </a>
+    </span>
     <a href="register_page.html" class="login-button">
       Sign Up
       <span class="buttons"><i class="bi bi-person-plus-fill"></i></span>
@@ -647,6 +647,40 @@
 
 </section>
   <!-- End Order Management Section -->
+
+
+  <!-- Login Form Section -->
+  <section id="login-section">
+    <div class="background">
+
+      <div class="container">
+
+        <form class="form-group">
+
+          <div class="mb-3 bg p-5 rounded">
+
+            <h2 class="text-center">Login</h2>
+
+            <label for="email" class="form-label mt-5 fw-semibold">Username</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+
+            <label for="pw" class="form-label mt-3 fw-semibold">Password</label>
+            <input type="password" class="form-control" id="pw" placeholder="Enter your password">
+            <p class="mb-5">Forgot password ?</p>
+
+            <a href="home_page.html" class="form-control btn btn-warning mb-4">Login</a>
+
+            <span>Don't have an account ? <a href="register_page.html">Sign Up</a></span>
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- End Login Form Section -->
 
 
 
