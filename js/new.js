@@ -94,3 +94,43 @@ $('#btn-register').on("click", function () {
     $('#navbar-section').css({display: 'none'});
 });
 /* end register nav management */
+
+
+/* start logout nav management */
+$('#btn-logout').on("click", function () {
+    $('#home-section').css({display: 'none'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'block'});
+    $('#navbar-section').css({display: 'none'});
+});
+/* end logout nav management */
+
+
+/* when click login page's login button */
+$('#go-home-page').on("click", function () {
+    $('#home-section').css({display: 'block'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
+});
+/* end when click login page's login button */
+
+
+/* when click login page's register button */
+$('#go-register-page').on("click", function () {
+    $('#home-section').css({display: 'none'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'block'});
+    $('#logout-section').css({display: 'none'});
+});
+/* end when click login page's register button */
