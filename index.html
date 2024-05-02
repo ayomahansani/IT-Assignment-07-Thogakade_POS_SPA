@@ -22,6 +22,628 @@
 </head>
 <body>
 
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+
+  <div class="container-fluid">
+
+    <img class="logo" src="assets/icon/icons8-grocery-64.png" alt="">
+
+    <a class="navbar-brand me-auto" href="#">FOOD CORNER</a>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">FOOD CORNER</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2 active" aria-current="page" href="home_page.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="customer_manage_page.html">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="item_manage_page.html">Items</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" href="order_manage_page.html">Orders</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <a href="login_page.html" class="login-button">
+      Sign In
+      <span class="buttons"><i class="bi bi-person-bounding-box"></i></span>
+    </a>
+    <a href="register_page.html" class="login-button">
+      Sign Up
+      <span class="buttons"><i class="bi bi-person-plus-fill"></i></span>
+    </a>
+    <a href="logout_page.html" class="login-button">
+      Log Out
+      <span class="buttons"><i class="bi bi-fast-forward-circle-fill"></i></span>
+    </a>
+    <!-- End Buttons -->
+
+    <!-- Navbar Toggler -->
+    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- End Navbar Toggler -->
+
+  </div>
+
+</nav>
+<!-- End Navbar -->
+
+
+
+<!-- Home Section -->
+<section id="home-section" class="hero-section">
+
+  <!-- Background Image -->
+  <img class="home-image " src="assets/img/2149565242.jpg" alt="home page image">
+  <!-- End Background Image -->
+
+  <!-- Card Section -->
+  <div class="container text-center card-set">
+
+    <div class="row">
+
+      <!-- Customer Card -->
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+        <div class="card border-0">
+          <div class="card-body pb-4">
+            <img src="assets/icon/icons8-customers-96.png" class="card-img-top" alt="...">
+            <p class="card-title mt-3 mb-3">Customers</p>
+            <h4 class="mb-5">30</h4>
+            <a href="customer_manage_page.html" class="btn btn-warning my-btn mb-3">
+              More
+              <span><i class="bi bi-three-dots-vertical"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Customer Card -->
+
+      <!-- Item Card -->
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+        <div class="card border-0">
+          <div class="card-body pb-4">
+            <img src="assets/icon/icons8-grocery-bag-64.png" class="card-img-top" alt="...">
+            <p class="card-title mt-3 mb-3">Items</p>
+            <h4 class="mb-5">46</h4>
+            <a href="item_manage_page.html" class="btn btn-warning my-btn mb-3">
+              More
+              <span><i class="bi bi-three-dots-vertical"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Item Card -->
+
+      <!-- Orders Card -->
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4">
+        <div class="card border-0">
+          <div class="card-body pb-4">
+            <img src="assets/icon/icons8-add-to-basket-100.png" class="card-img-top" alt="...">
+            <p class="card-title mt-3 mb-3">Orders</p>
+            <h4 class="mb-5">11</h4>
+            <a href="order_manage_page.html" class="btn btn-warning my-btn mb-3">
+              More
+              <span><i class="bi bi-three-dots-vertical"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End Orders Card -->
+
+    </div>
+
+  </div>
+  <!-- End Card Section -->
+
+</section>
+<!-- End Home Section -->
+
+
+<!-- Customer Management Section -->
+<section id="customer-section" class="hero-section">
+
+  <!-- Background Image -->
+  <img class="home-image " src="assets/img/2149565242.jpg">
+  <!-- End Background Image -->
+
+  <!-- Title Section -->
+  <div class="main-title me-auto">
+    <img id="customerImg" src="assets/icon/icons8-customers.png" alt="">
+    <h6 id="title">Customers</h6>
+  </div>
+  <!-- End Title Section -->
+
+  <!-- Main Section -->
+  <div class="main-section">
+
+    <!-- up section -->
+    <div class="search-customer">
+
+      <form class="row">
+
+        <!-- customer search -->
+        <div class="col-8 col-sm-6 col-md-4 col-lg-4 pb-4">
+          <label for="search" class="form-label fw-semibold">
+            Search Customer
+          </label>
+          <input type="search" class="form-control search-input" id="search" placeholder="Input NIC / Name Here">
+        </div>
+        <div class="col-4 col-sm-6 col-md-3 col-lg-3 pb-4">
+          <button type="submit" class="btn btn-warning search-btn">
+            Search
+            <span class="search"><i class="bi bi-search"></i></span>
+          </button>
+        </div>
+        <!-- end customer search -->
+
+        <!-- buttons -->
+        <div class="col-6 col-sm-4 col-md-2 col-lg-2 pb-1">
+          <a href="" id="newCusBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#newCustomerModal">
+            <span class="add-to-cart"><i class="bi bi-plus-circle-fill"></i></span>
+            New Customer
+          </a>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-lg-2 pb-1">
+          <a href="" id="viewAllCus" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewAllCustomerModal">
+            <span class="view"><i class="bi bi-eye-fill"></i></span>
+            View All Customers
+          </a>
+        </div>
+        <!-- end buttons -->
+
+        <!-- right image -->
+        <div class="col-12 col-sm-4 col-md-1 col-lg-1 pb-1">
+          <img src="assets/icon/icons8-customers-48.png" class="customer-page-photo" alt="customers photo">
+        </div>
+        <!-- end right image -->
+
+      </form>
+
+    </div>
+    <!-- end up section -->
+
+    <!-- customer table -->
+    <div class="customer-table">
+
+      <table class="table table-warning table-striped table-bordered border-dark table-hover table-sm">
+        <thead class="table-dark">
+        <tr>
+          <th scope="col">NIC</th>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Contact</th>
+        </tr>
+        </thead>
+
+        <tbody class="table-group-divider">
+        <tr>
+          <th scope="row">200178453425V</th>
+          <th>Oshan Vishwajith</th>
+          <th>Kadawatha</th>
+          <th>0772087926</th>
+        </tr>
+        <tr>
+          <th scope="row">200451906783V</th>
+          <th>Akithma Subandi</th>
+          <th>Delgoda</th>
+          <th>0783456120</th>
+        </tr>
+        <tr>
+          <th scope="row">199756092365V</th>
+          <th>Maheshi Kodagoda</th>
+          <th>Colombo</th>
+          <th>0720438745</th>
+        </tr>
+        <tr>
+          <th scope="row">199909459879V</th>
+          <th>Nirmal Pathum</th>
+          <th>Galle</th>
+          <th>0761250923</th>
+        </tr>
+        <tr>
+          <th scope="row">200061547786V</th>
+          <th>Senali Nuhansa</th>
+          <th>Panadura</th>
+          <th>0750332345</th>
+        </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+    <!-- end customer table -->
+
+  </div>
+  <!-- End Main Section -->
+
+</section>
+<!-- End Customer Management Section -->
+
+
+<!-- Item Management Section -->
+<section id="item-section" class="hero-section">
+
+  <!-- Background Image -->
+  <img class="home-image " src="assets/img/2149565242.jpg" alt="background-image">
+  <!-- End Background Image -->
+
+  <!-- Title Section -->
+  <div class="main-title me-auto">
+    <img id="itemImg" src="assets/icon/icons8-ingredients-26.png" alt="item-image">
+    <h6 id="title">Items</h6>
+  </div>
+  <!-- End Title Section -->
+
+  <!-- Main Section -->
+  <div class="main-section">
+
+    <!-- up section -->
+    <div class="search-item">
+
+      <form class="row">
+
+        <!-- item search -->
+        <div class="col-8 col-sm-6 col-md-4 col-lg-4 pb-4">
+          <label for="search" class="form-label fw-semibold">
+            Search Item
+          </label>
+          <input type="search" class="form-control search-input" id="search" placeholder="Input Code / Name Here">
+        </div>
+        <div class="col-4 col-sm-6 col-md-3 col-lg-3 pb-4">
+          <button type="submit" class="btn btn-warning search-btn">
+            Search
+            <span class="search"><i class="bi bi-search"></i></span>
+          </button>
+        </div>
+        <!-- End item search -->
+
+        <!-- buttons -->
+        <div class="col-6 col-sm-4 col-md-2 col-lg-2 pb-1">
+          <a href="" id="newItemBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#newItemModal">
+            <span class="add-to-cart mr-3"><i class="bi bi-plus-circle-fill"></i></span>
+            New Item
+          </a>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2 col-lg-2 pb-1">
+          <a href="" id="viewAllItem" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewAllItemsModal">
+            <span class="view"><i class="bi bi-eye-fill"></i></span>
+            View All Items
+          </a>
+        </div>
+        <!-- end buttons -->
+
+        <!-- right image -->
+        <div class="col-12 col-sm-4 col-md-1 col-lg-1 pb-1">
+          <img src="assets/icon/icons8-paper-bag-64.png" class="item-page-photo" alt="item-bag-image">
+        </div>
+        <!-- end right image -->
+
+      </form>
+
+    </div>
+    <!-- end up section -->
+
+    <!-- item table -->
+    <div class="item-table">
+
+      <table class="table table-warning table-striped table-bordered border-dark table-hover table-sm">
+        <thead class="table-dark">
+        <tr>
+          <th scope="col">Code</th>
+          <th scope="col">Name</th>
+          <th scope="col">Price</th>
+          <th scope="col">Quantity</th>
+        </tr>
+        </thead>
+
+        <tbody class="table-group-divider">
+        <tr>
+          <th scope="row">I001</th>
+          <th>Maliban Chocolate Biscuit</th>
+          <th>Rs: 150.00</th>
+          <th>30</th>
+        </tr>
+        <tr>
+          <th scope="row">I002</th>
+          <th>Kirisamba 5kg</th>
+          <th>Rs: 1200.25</th>
+          <th>11</th>
+        </tr>
+        <tr>
+          <th scope="row">I003</th>
+          <th>Sunlight 120g</th>
+          <th>Rs: 130.00</th>
+          <th>24</th>
+        </tr>
+        <tr>
+          <th scope="row">I004</th>
+          <th>White Sugar 500g</th>
+          <th>Rs: 345.75</th>
+          <th>23</th>
+        </tr>
+        <tr>
+          <th scope="row">I005</th>
+          <th>Coca Cola 2l</th>
+          <th>Rs :560.00</th>
+          <th>50</th>
+        </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+    <!-- end item table -->
+
+  </div>
+  <!-- End Main Section -->
+
+</section>
+<!-- End Item Management Section -->
+
+
+<!-- Order Management Section -->
+<section id="order-section" class="hero-section">
+
+  <!-- Background Image -->
+  <img class="home-image " src="assets/img/2149565242.jpg" alt="background-image">
+  <!-- End Background Image -->
+
+  <!-- Title Section -->
+  <div class="main-title me-auto">
+    <img id="customerImg" src="assets/icon/icons8-order-48.png" alt="order-image">
+    <h6 id="title">Place Order</h6>
+  </div>
+  <!-- End Title Section -->
+
+  <!-- Main Section -->
+  <div class="main-section">
+
+    <!-- Form Set -->
+    <section id="forms">
+
+      <!-- Invoice Details Form -->
+      <div class="form_div">
+
+        <!-- Title -->
+        <h5 class="div_head">
+          Invoice Details
+          <span class="invoice">
+                        <i class="bi bi-file-earmark-text-fill"></i>
+                    </span>
+        </h5>
+        <!-- End Title -->
+
+        <!-- Form Body -->
+        <form class="form">
+
+          <div>
+            <div class="up_div">
+              <div class="form1_set1">
+
+                <label for="orderId" class="form-label fw-semibold">Order Id :</label>
+                <input type="text" class="form-control search-input" id="orderId" placeholder="O001">
+
+              </div>
+
+              <div class="form1_set2">
+
+                <label for="orderDate" class="form-label fw-semibold">Order Date :</label>
+                <input type="date" class="form-control search-input" id="orderDate" style="width: 187px;">
+
+              </div>
+            </div>
+
+            <div id="mid_div">
+              <label for="customers" class="form-label fw-semibold">Select Customer :</label>
+              <select class="form-select search-input" aria-label="Default select example" id="customers">
+                <option selected>choose customer NIC</option>
+                <option value="1">200451906783V</option>
+                <option value="2">199909459879V</option>
+                <option value="3">200178453425V</option>
+                <option value="4">200061547786V</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="down_div">
+            <div class="form1_set1">
+
+              <label for="cusId" class="form-label fw-semibold">ID :</label>
+              <input type="text" class="form-control search-input" id="cusId" placeholder="200451906783V">
+
+              <label for="cusAddress" class="form-label fw-semibold">Address :</label>
+              <input type="text" class="form-control search-input" id="cusAddress" placeholder="Panadura">
+
+            </div>
+
+            <div class="form1_set2">
+
+              <label for="cusName" class="form-label fw-semibold">Name :</label>
+              <input type="text" class="form-control search-input" id="cusName" placeholder="Oshan Vishwajith">
+
+              <label for="cusPhone" class="form-label fw-semibold">Contact :</label>
+              <input type="text" class="form-control search-input" id="cusPhone" placeholder="0776287698">
+
+            </div>
+          </div>
+
+        </form>
+        <!-- End Form Body -->
+
+      </div>
+      <!-- End Invoice Details Form -->
+
+      <!-- Select Item Form -->
+      <div class="form_div">
+
+        <!-- Title -->
+        <h5 class="div_head">
+          Select Item
+          <span class="selectItem">
+                        <i class="bi bi-bookmark-check-fill"></i>
+                    </span>
+        </h5>
+        <!-- End Title -->
+
+        <!-- Form Body -->
+        <form class="form">
+
+          <div class="up_div">
+
+            <div>
+              <label for="selectItem" class="form-label fw-semibold">Select Item :</label>
+              <select class="form-select search-input" aria-label="Default select example" id="selectItem">
+                <option selected>choose item code &nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="1">I001</option>
+                <option value="2">I002</option>
+                <option value="3">I003</option>
+                <option value="4">I004</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="mid_div">
+
+            <div class="form2_set1">
+
+              <label for="itemCode" class="form-label fw-semibold">Code :</label>
+              <input type="text" class="form-control search-input" id="itemCode" placeholder="I002">
+
+              <label for="itemPrice" class="form-label fw-semibold">Unit Price :</label>
+              <input type="text" class="form-control search-input" id="itemPrice" placeholder="Rs: 1200.25">
+
+            </div>
+
+            <div class="form2_set2">
+
+              <label for="itemName" class="form-label fw-semibold">Name :</label>
+              <input type="text" class="form-control search-input" id="itemName" placeholder="Kirisamba 5kg">
+
+              <label for="qtyOnH" class="form-label fw-semibold">Qty On Hand :</label>
+              <input type="text" class="form-control search-input" id="qtyOnH" placeholder="11">
+
+            </div>
+          </div>
+
+          <div class="down_div">
+
+            <div>
+              <label for="quantity" class="form-label fw-semibold">Order Quantity :</label>
+              <input type="text" class="form-control search-input" id="quantity" placeholder="2">
+            </div>
+
+
+            <button type="button" class="btn btn-warning" id="addBtn" >
+              <span class="add-to-cart mr-3"><i class="bi bi-plus-circle-fill"></i></span>
+              Add To Cart
+            </button>
+
+          </div>
+
+        </form>
+        <!-- End Form Body -->
+
+      </div>
+      <!-- End Select Item Form -->
+
+      <!-- Total Form -->
+      <div class="form_div total-form">
+
+        <!-- Title -->
+        <h5 class="div_head">
+          Amount
+          <span class="calculator">
+                        <i class="bi bi-calculator-fill icon-lg"></i>
+                    </span>
+        </h5>
+        <!-- End Title -->
+
+        <!-- Form Body -->
+        <form class="form">
+
+          <div class="up_div">
+
+            <div>
+              <label for="total" class="form-label fw-semibold">Total :</label>
+              <input type="text" class="form-control search-input" id="total" placeholder="Rs: 2400.5">
+            </div>
+
+            <div>
+              <label for="cash" class="form-label fw-semibold">Cash :</label>
+              <input type="text" class="form-control search-input" id="cash" placeholder="Rs: 5000.00">
+            </div>
+
+          </div>
+
+          <div class="mid_div">
+
+            <div class="form2_set1">
+
+              <label for="discount" class="form-label fw-semibold">Select Discount :</label>
+              <select class="form-select search-input" aria-label="Default select example" id="discount">
+                <option selected>10%</option>
+                <option value="1">0%</option>
+                <option value="1">5%</option>
+                <option value="2">10%</option>
+                <option value="3">15%</option>
+                <option value="4">20%</option>
+              </select>
+
+              <label for="subTotal" class="form-label fw-semibold">Sub Total :</label>
+              <input type="text" class="form-control search-input" id="subTotal" placeholder="Rs: 2160.45">
+
+            </div>
+
+            <div class="form2_set2">
+              <label for="balance" class="form-label fw-semibold">Balance :</label>
+              <input type="text" class="form-control search-input" id="balance" placeholder="Rs: 2839.55">
+            </div>
+
+          </div>
+
+          <div class="down_div">
+
+            <button type="submit" class="btn btn-warning" id="purchaseBtn" >
+              <span class="purchase"><i class="bi bi-cart-check-fill"></i></span>
+              Purchase
+            </button>
+
+            <a href="" id="viewBtn" role="button" class="btn" data-bs-toggle="modal" data-bs-target="#viewOrderDetailsModal">
+              <span class="view"><i class="bi bi-eye-fill"></i></span>
+              View Order Details
+            </a>
+
+          </div>
+
+        </form>
+        <!-- End Form Body -->
+
+      </div>
+      <!-- End Total Form -->
+
+    </section>
+    <!-- End Form Set -->
+
+  </div>
+  <!-- End Main Section -->
+
+</section>
+<!-- End Order Management Section -->
+
+
 
 <!-- import jquery -->
 <script src="assets/lib/jquery-3.7.1.min.js"></script>
