@@ -35,11 +35,11 @@ $('#nav-items').on("click", function () {
 /* end items nav management */
 
 
-/* start items nav management */
+/* start orders nav management */
 $('#nav-orders').on("click", function () {
     $('#home-section').css({display: 'none'});
     $('#customer-section').css({display: 'none'});
     $('#item-section').css({display: 'none'});
     $('#order-section').css({display: 'block'});
 });
-/* end items nav management */
+/* end orders nav management */
