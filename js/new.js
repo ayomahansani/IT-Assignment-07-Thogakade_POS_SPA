@@ -43,3 +43,12 @@ $('#nav-orders').on("click", function () {
     $('#order-section').css({display: 'block'});
 });
 /* end orders nav management */
+
+
+/* start adding active class on click */
+$('ul').on("click", 'span', function () {
+    $('ul span.active').removeClass('active');
+    $(this).addClass('active');
+});
+
+/* end adding active class on click */
