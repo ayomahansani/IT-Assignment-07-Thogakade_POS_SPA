@@ -10,3 +10,11 @@ $('#nav-customers').on("click", function () {
     $('#order-section').css({display: 'none'});
 });
 /* end customers nav management */
+
+/* start items nav management */
+$('#nav-items').on("click", function () {
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'block'});
+    $('#order-section').css({display: 'none'});
+});
+/* end items nav management */
