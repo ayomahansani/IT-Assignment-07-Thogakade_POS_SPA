@@ -171,6 +171,9 @@ $('#go-customer-page').on("click", function () {
     $('#login-section').css({display: 'none'});
     $('#register-section').css({display: 'none'});
     $('#logout-section').css({display: 'none'});
+
+    $('ul span.active').removeClass('active');
+    $('ul li:nth-child(2) span').addClass('active');
 });
 /* end when click home page's customer card's more button */
 
@@ -184,6 +187,9 @@ $('#go-item-page').on("click", function () {
     $('#login-section').css({display: 'none'});
     $('#register-section').css({display: 'none'});
     $('#logout-section').css({display: 'none'});
+
+    $('ul span.active').removeClass('active');
+    $('ul li:nth-child(3) span').addClass('active');
 });
 /* end when click home page's customer card's more button */
 
@@ -197,6 +203,9 @@ $('#go-orders-page').on("click", function () {
     $('#login-section').css({display: 'none'});
     $('#register-section').css({display: 'none'});
     $('#logout-section').css({display: 'none'});
+
+    $('ul span.active').removeClass('active');
+    $('ul li:nth-child(4) span').addClass('active');
 });
 /* end when click home page's customer card's more button */
 
