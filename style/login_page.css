@@ -9,10 +9,10 @@
 .login-background form {
     position: absolute;
     width: 40%;
-    /*height: 100%;*/
+    height: 80%;
     left: 0;
     right: 0;
-    top: 7rem;
+    top: 4.5rem;
     margin: auto;
     opacity: 0.8;
 }
@@ -39,6 +39,9 @@
 }
 
 .login-background form .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-color: papayawhip;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.58);
 }
@@ -46,6 +49,7 @@
 .login-background form .btn {
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     font-weight: 600;
+    margin-top: 3rem;
 }
 
 .login-background form .btn:hover {
@@ -54,6 +58,7 @@
 
 .login-background form input {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1rem;
 }
 
 .login-background form input:hover{
