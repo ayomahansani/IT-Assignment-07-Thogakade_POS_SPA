@@ -286,8 +286,6 @@
         background-color: goldenrod;
     }
 
-
-
     .navbar .buttons {
         margin: 0.005em;
     }
@@ -351,7 +349,7 @@
         left: 0;
     }
 
-    .card-set .card .card-body a.my-btn {
+    #go-customer-page, #go-item-page, #go-orders-page {
         width: 160px;
         box-shadow: 3px 3px 8px black;
         text-align: center;
@@ -421,7 +419,7 @@
         left: 0;
     }
 
-    .card-set .card .card-body a.my-btn {
+    #go-customer-page, #go-item-page, #go-orders-page {
         width: 160px;
         box-shadow: 3px 3px 8px black;
         text-align: center;
@@ -445,19 +443,19 @@
         overflow-x: hidden;
     }
 
-    .hero-section::before {
+    #home-section::before {
+        position: absolute;
         width: 100vw;
         height: 215vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
-        position: absolute;
         top: 0;
         bottom: 0;
         right: 0;
         left: 0;
     }
 
-    .home-image {
+    #home-section .home-image {
         width: 400%;
         height: 215%;
     }
@@ -475,7 +473,7 @@
         box-shadow: 4px 4px 7px black;
     }
 
-    .card-set .card .card-body a.my-btn {
+    #go-customer-page, #go-item-page, #go-orders-page {
         width: 200px;
         box-shadow: 3px 3px 8px black;
         text-align: center;
@@ -500,7 +498,7 @@
         overflow-x: hidden;
     }
 
-    .hero-section::before {
+    #home-section::before {
         width: 100vw;
         height: 215vh;
         background-color: rgba(0,0,0,0.6);
@@ -512,7 +510,7 @@
         left: 0;
     }
 
-    .home-image {
+    #home-section .home-image {
         width: 400%;
         height: 215%;
     }
@@ -571,7 +569,7 @@
         overflow-x: hidden;
     }
 
-    .hero-section::before {
+    #home-section::before {
         width: 100vw;
         height: 215vh;
         background-color: rgba(0,0,0,0.6);
@@ -583,7 +581,7 @@
         left: 0;
     }
 
-    .home-image {
+    #home-section .home-image {
         width: 400%;
         height: 215%;
     }
@@ -641,7 +639,7 @@
         overflow-x: hidden;
     }
 
-    .hero-section::before {
+    #home-section::before {
         width: 100vw;
         height: 215vh;
         background-color: rgba(0,0,0,0.6);
@@ -653,7 +651,7 @@
         left: 0;
     }
 
-    .home-image {
+    #home-section .home-image {
         width: 400%;
         height: 215%;
     }
@@ -711,7 +709,7 @@
         overflow-x: hidden;
     }
 
-    .hero-section::before {
+    #home-section::before {
         width: 100vw;
         height: 215vh;
         background-color: rgba(0,0,0,0.6);
@@ -723,7 +721,7 @@
         left: 0;
     }
 
-    .home-image {
+    #home-section .home-image {
         width: 400%;
         height: 215%;
     }
@@ -782,7 +780,7 @@
         overflow-x: hidden;
     }
 
-    .hero-section::before {
+    #home-section::before {
         width: 100vw;
         height: 190vh;
         background-color: rgba(0,0,0,0.6);
@@ -794,7 +792,7 @@
         left: 0;
     }
 
-    .home-image {
+    #home-section .home-image {
         width: 400%;
         height: 190%;
     }
@@ -879,7 +877,7 @@
         overflow-x: hidden;
     }
 
-    .hero-section::before {
+    #home-section::before {
         width: 100vw;
         height: 190vh;
         background-color: rgba(0,0,0,0.6);
@@ -891,7 +889,7 @@
         left: 0;
     }
 
-    .home-image {
+    #home-section .home-image {
         width: 400%;
         height: 190%;
     }

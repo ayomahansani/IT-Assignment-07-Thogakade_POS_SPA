@@ -570,17 +570,17 @@ input:hover{
         opacity: 0.7;
     }
 
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 110vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -593,17 +593,17 @@ input:hover{
 
 @media (max-width: 700px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 110vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -697,17 +697,17 @@ input:hover{
 
 @media (max-width: 669px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 115vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 115vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -801,22 +801,22 @@ input:hover{
 
 @media (max-width: 654px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 130vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 130vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
-    .home-image {
-        width: 400%;
-        height: 130%;
-    }
+    /*#customer-section .home-image {*/
+    /*    width: 400%;*/
+    /*    height: 130%;*/
+    /*}*/
 
     .main-title {
         width: 94.3%;
@@ -922,17 +922,17 @@ input:hover{
 
 @media (max-width: 637px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 140vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 140vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -1043,17 +1043,17 @@ input:hover{
 
 @media (max-width: 621px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 140vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 140vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -1164,17 +1164,17 @@ input:hover{
 
 @media (max-width: 620px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 130vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 130vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -1268,17 +1268,17 @@ input:hover{
 
 @media (max-width: 601px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 150vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 150vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -1372,17 +1372,17 @@ input:hover{
 
 @media (max-width: 575px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 160vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 160vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
@@ -1514,17 +1514,17 @@ input:hover{
 
 @media (max-width: 533px) {
 
-    .hero-section::before {
-        width: 100vw;
-        height: 130vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    /*.hero-section::before {*/
+    /*    width: 100vw;*/
+    /*    height: 130vh;*/
+    /*    background-color: rgba(0,0,0,0.6);*/
+    /*    content: "";*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    right: 0;*/
+    /*    left: 0;*/
+    /*}*/
 
     .home-image {
         width: 400%;
