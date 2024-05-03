@@ -60,14 +60,6 @@ $('#nav-orders').on("click", function () {
 /* end orders nav management */
 
 
-/* start adding active class on click */
-$('ul').on("click", 'span', function () {
-    $('ul span.active').removeClass('active');
-    $(this).addClass('active');
-});
-/* end adding active class on click */
-
-
 /* start login nav management */
 $('#btn-login').on("click", function () {
     $('#home-section').css({display: 'none'});
@@ -119,6 +111,7 @@ $('#go-home-page').on("click", function () {
     $('#login-section').css({display: 'none'});
     $('#register-section').css({display: 'none'});
     $('#logout-section').css({display: 'none'});
+    $('#navbar-section').css({display: 'block'});
 });
 /* end when click login page's login button */
 
@@ -134,3 +127,40 @@ $('#go-register-page').on("click", function () {
     $('#logout-section').css({display: 'none'});
 });
 /* end when click login page's register button */
+
+
+/* when click register page's register button */
+$('#go-home-page-2').on("click", function () {
+    $('#home-section').css({display: 'block'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
+    $('#navbar-section').css({display: 'block'});
+});
+/* when click register page's register button */
+
+
+/* when click login page's register button */
+$('#go-login-page').on("click", function () {
+    $('#home-section').css({display: 'none'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'block'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
+});
+/* end when click login page's register button */
+
+
+
+/* start adding active class on click */
+$('ul').on("click", 'span', function () {
+    $('ul span.active').removeClass('active');
+    $(this).addClass('active');
+});
+/* end adding active class on click */
+
