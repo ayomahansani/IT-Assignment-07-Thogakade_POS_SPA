@@ -112,6 +112,9 @@ $('#go-home-page').on("click", function () {
     $('#register-section').css({display: 'none'});
     $('#logout-section').css({display: 'none'});
     $('#navbar-section').css({display: 'block'});
+
+    $('ul span.active').removeClass('active');
+    $('ul li:nth-child(1) span').addClass('active');
 });
 /* end when click login page's login button */
 
@@ -139,6 +142,9 @@ $('#go-home-page-2').on("click", function () {
     $('#register-section').css({display: 'none'});
     $('#logout-section').css({display: 'none'});
     $('#navbar-section').css({display: 'block'});
+
+    $('ul span.active').removeClass('active');
+    $('ul li:nth-child(1) span').addClass('active');
 });
 /* when click register page's register button */
 
