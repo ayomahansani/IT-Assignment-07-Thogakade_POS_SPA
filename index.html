@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Single Page Application</title>
 
+  <!--  Linked stylesheets -->
   <link rel="stylesheet" href="assets/normalize-css.css">
-
   <link rel="stylesheet" href="style/home_page.css">
   <link rel="stylesheet" href="style/customer_page.css">
   <link rel="stylesheet" href="style/item_page.css">
@@ -168,8 +168,8 @@
 
   <!-- Title Section -->
   <div class="main-title me-auto">
-    <img id="customerImg" src="assets/icon/icons8-customers.png" alt="">
-    <h6 id="title">Customers</h6>
+    <img class="customerImg" src="assets/icon/icons8-customers.png" alt="">
+    <h6 class="title">Customers</h6>
   </div>
   <!-- End Title Section -->
 
@@ -290,7 +290,7 @@
   <!-- Title Section -->
   <div class="main-title me-auto">
     <img id="itemImg" src="assets/icon/icons8-ingredients-26.png" alt="item-image">
-    <h6 id="title">Items</h6>
+    <h6 class="title">Items</h6>
   </div>
   <!-- End Title Section -->
 
@@ -540,8 +540,8 @@
               <label for="itemName" class="form-label fw-semibold">Name :</label>
               <input type="text" class="form-control search-input" id="itemName" placeholder="Kirisamba 5kg">
 
-              <label for="qtyOnH" class="form-label fw-semibold">Qty On Hand :</label>
-              <input type="text" class="form-control search-input" id="qtyOnH" placeholder="11">
+              <label for="itemQtyOnH" class="form-label fw-semibold">Qty On Hand :</label>
+              <input type="text" class="form-control search-input" id="itemQtyOnH" placeholder="11">
 
             </div>
           </div>
@@ -764,23 +764,23 @@
           <form>
 
             <div class="mb-3">
-              <label for="cusId" class="form-label fw-semibold">Customer Id</label>
-              <input type="text" class="form-control search-input" id="cusId">
+              <label for="customerId" class="form-label fw-semibold">Customer Id</label>
+              <input type="text" class="form-control search-input" id="customerId">
             </div>
 
             <div class="mb-3">
-              <label for="cusName" class="form-label fw-semibold">Customer Name</label>
-              <input type="text" class="form-control search-input" id="cusName">
+              <label for="customerName" class="form-label fw-semibold">Customer Name</label>
+              <input type="text" class="form-control search-input" id="customerName">
             </div>
 
             <div class="mb-3">
-              <label for="cusAddress" class="form-label fw-semibold">Customer Address</label>
-              <input type="text" class="form-control search-input" id="cusAddress">
+              <label for="customerAddress" class="form-label fw-semibold">Customer Address</label>
+              <input type="text" class="form-control search-input" id="customerAddress">
             </div>
 
             <div class="mb-3">
-              <label for="cusPhone" class="form-label fw-semibold">Customer Contact</label>
-              <input type="text" class="form-control search-input" id="cusPhone">
+              <label for="customerPhone" class="form-label fw-semibold">Customer Contact</label>
+              <input type="text" class="form-control search-input" id="customerPhone">
             </div>
 
           </form>
@@ -865,23 +865,23 @@
           <form>
 
             <div class="mb-3">
-              <label for="itemCode" class="form-label fw-semibold">Item Code</label>
-              <input type="text" class="form-control search-input" id="itemCode">
+              <label for="codeItem" class="form-label fw-semibold">Item Code</label>
+              <input type="text" class="form-control search-input" id="codeItem">
             </div>
 
             <div class="mb-3">
-              <label for="itemName" class="form-label fw-semibold">Item Name</label>
-              <input type="text" class="form-control search-input" id="itemName">
+              <label for="nameItem" class="form-label fw-semibold">Item Name</label>
+              <input type="text" class="form-control search-input" id="nameItem">
             </div>
 
             <div class="mb-3">
-              <label for="itemPrice" class="form-label fw-semibold">Item Price</label>
-              <input type="text" class="form-control search-input" id="itemPrice">
+              <label for="priceItem" class="form-label fw-semibold">Item Price</label>
+              <input type="text" class="form-control search-input" id="priceItem">
             </div>
 
             <div class="mb-3">
-              <label for="qty" class="form-label fw-semibold">Item Quantity</label>
-              <input type="text" class="form-control search-input" id="qty">
+              <label for="qtyItem" class="form-label fw-semibold">Item Quantity</label>
+              <input type="text" class="form-control search-input" id="qtyItem">
             </div>
 
           </form>
@@ -1075,7 +1075,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <!-- plug the js file -->
-<script src="js/new.js"></script>
+<script src="js/thogakade.js"></script>
 
 </body>
 </html>

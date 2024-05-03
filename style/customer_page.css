@@ -827,7 +827,7 @@
     top: 14%;
 }
 
-#customerImg {
+.customerImg {
     width: 25px;
     height: 25px;
 
@@ -837,7 +837,7 @@
     left: 1.5%;
 }
 
-#title {
+.title {
     font-weight: 500;
     position: absolute;
 
@@ -1104,7 +1104,7 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1145,7 +1145,7 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1191,7 +1191,7 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1237,7 +1237,7 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1283,7 +1283,7 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1329,7 +1329,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1339,7 +1339,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1450,7 +1450,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1460,7 +1460,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1554,7 +1554,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1564,7 +1564,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1658,7 +1658,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1668,7 +1668,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1779,7 +1779,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1789,7 +1789,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -1900,7 +1900,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1910,7 +1910,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -2021,7 +2021,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -2031,7 +2031,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -2125,7 +2125,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 25px;
         height: 25px;
 
@@ -2135,7 +2135,7 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         position: absolute;
 
@@ -2229,7 +2229,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 20px;
         height: 20px;
 
@@ -2239,7 +2239,7 @@ input:hover{
         left: 4%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         font-size: 0.9rem;
         position: absolute;
@@ -2371,7 +2371,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    .customerImg {
         width: 20px;
         height: 20px;
 
@@ -2381,7 +2381,7 @@ input:hover{
         left: 4%;
     }
 
-    #title {
+    .title {
         font-weight: 500;
         font-size: 0.9rem;
         position: absolute;
