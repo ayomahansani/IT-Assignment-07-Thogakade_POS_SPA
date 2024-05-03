@@ -156,6 +156,31 @@ $('#go-login-page').on("click", function () {
 /* end when click login page's register button */
 
 
+/* when click home page's customer card's more button */
+$('#go-customer-page').on("click", function () {
+    $('#home-section').css({display: 'none'});
+    $('#customer-section').css({display: 'block'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
+});
+/* end when click home page's customer card's more button */
+
+
+/* when click home page's item card's more button */
+$('#go-item-page').on("click", function () {
+    $('#home-section').css({display: 'none'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'block'});
+    $('#order-section').css({display: 'none'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
+});
+/* end when click home page's customer card's more button */
+
 
 /* start adding active class on click */
 $('ul').on("click", 'span', function () {
