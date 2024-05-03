@@ -148,6 +148,39 @@
     margin: 0.3em;
 }
 
+#go-customer-page {
+    width: 200px;
+    box-shadow: 3px 3px 8px black;
+    text-align: center;
+    border: none;
+}
+
+#go-customer-page:hover {
+    background-color: goldenrod;
+}
+
+#go-item-page {
+    width: 200px;
+    box-shadow: 3px 3px 8px black;
+    text-align: center;
+    border: none;
+}
+
+#go-item-page:hover {
+    background-color: goldenrod;
+}
+
+#go-orders-page {
+    width: 200px;
+    box-shadow: 3px 3px 8px black;
+    text-align: center;
+    border: none;
+}
+
+#go-orders-page:hover {
+    background-color: goldenrod;
+}
+
 /*------------------------------------------*/
 
 @media (max-width: 1064px) {
