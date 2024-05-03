@@ -182,6 +182,19 @@ $('#go-item-page').on("click", function () {
 /* end when click home page's customer card's more button */
 
 
+/* when click home page's order card's more button */
+$('#go-orders-page').on("click", function () {
+    $('#home-section').css({display: 'none'});
+    $('#customer-section').css({display: 'none'});
+    $('#item-section').css({display: 'none'});
+    $('#order-section').css({display: 'block'});
+    $('#login-section').css({display: 'none'});
+    $('#register-section').css({display: 'none'});
+    $('#logout-section').css({display: 'none'});
+});
+/* end when click home page's customer card's more button */
+
+
 /* start adding active class on click */
 $('ul').on("click", 'span', function () {
     $('ul span.active').removeClass('active');
