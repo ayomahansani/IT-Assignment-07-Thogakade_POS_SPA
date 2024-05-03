@@ -231,6 +231,23 @@
         height: 50px;
     }
 
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 5px 12px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 14px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
     .navbar .buttons {
         margin: 0.1em;
     }
@@ -251,6 +268,25 @@
         width: 40px;
         height: 50px;
     }
+
+    .navbar .login-button {
+         background-color: gold;
+         color: black;
+         font-weight: 500;
+         font-size: 16px;
+         padding: 5px 12px;
+         border-radius: 50px;
+         text-decoration: none;
+         transition: 0.3s background-color;
+         margin-right: 11px;
+         box-shadow: 4px 4px 7px black;
+     }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+
+
 
     .navbar .buttons {
         margin: 0.005em;
@@ -291,7 +327,7 @@
         color: black;
         font-weight: 500;
         font-size: 16px;
-        padding: 5px 22px;
+        padding: 5px 16px;
         border-radius: 50px;
         text-decoration: none;
         transition: 0.3s background-color;
@@ -431,11 +467,11 @@
         color: black;
         font-weight: 500;
         font-size: 16px;
-        padding: 5px 15px;
+        padding: 5px 12px;
         border-radius: 50px;
         text-decoration: none;
         transition: 0.3s background-color;
-        margin-right: 15px;
+        margin-right: 10px;
         box-shadow: 4px 4px 7px black;
     }
 
@@ -486,7 +522,7 @@
         color: black;
         font-weight: 500;
         font-size: 16px;
-        padding: 5px 15px;
+        padding: 5px 10px;
         border-radius: 50px;
         text-decoration: none;
         transition: 0.3s background-color;
@@ -557,7 +593,7 @@
         color: black;
         font-weight: 500;
         font-size: 16px;
-        padding: 5px 15px;
+        padding: 5px 10px;
         border-radius: 50px;
         text-decoration: none;
         transition: 0.3s background-color;
@@ -627,11 +663,11 @@
         color: black;
         font-weight: 500;
         font-size: 16px;
-        padding: 5px 10px;
+        padding: 5px 5px;
         border-radius: 50px;
         text-decoration: none;
         transition: 0.3s background-color;
-        margin-right: 9px;
+        margin-right: 8px;
         box-shadow: 4px 4px 7px black;
     }
 
@@ -767,12 +803,109 @@
         background-color: gold;
         color: black;
         font-weight: 500;
-        font-size: 13px;
+        font-size: 12px;
         padding: 3px 8px;
         border-radius: 50px;
         text-decoration: none;
         transition: 0.3s background-color;
-        margin-right: 12px;
+        margin-right: 10px;
+        box-shadow: 4px 4px 7px black;
+    }
+
+    .card-set {
+        width: 10%;
+        height: 10%;
+        position: absolute;
+        top: 10%;
+        bottom: 40%;
+        right: 0;
+        left: 0;
+    }
+
+    .card-set .card .card-body img {
+        height: 60px;
+        object-fit: contain;
+        transition: 0.6s ;
+    }
+
+    .card-set .card .card-body p {
+        text-shadow: 1px 1px 1px lightgrey;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .card-set .card .card-body h4 {
+        font-size: 18px;
+        color: green;
+    }
+
+    .card-set .card .card-body a.my-btn {
+        width: 200px;
+        box-shadow: 3px 3px 8px black;
+        text-align: center;
+        border: none;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: papayawhip;
+        /*padding: 6px 5px;*/
+        /*margin: 1px 1px;*/
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .buttons {
+        margin: 0.001em;
+    }
+
+    .login-button:hover {
+        background-color: goldenrod;
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 526px) {
+
+    .hero-section {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    .hero-section::before {
+        width: 100vw;
+        height: 190vh;
+        background-color: rgba(0,0,0,0.6);
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .home-image {
+        width: 400%;
+        height: 190%;
+    }
+
+    .navbar .login-button {
+        background-color: gold;
+        color: black;
+        font-weight: 500;
+        font-size: 11px;
+        padding: 3px 5px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 0.3s background-color;
+        margin-right: 8px;
         box-shadow: 4px 4px 7px black;
     }
 
