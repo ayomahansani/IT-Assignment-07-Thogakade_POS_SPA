@@ -214,11 +214,11 @@ input:hover{
 
 @media (max-width: 1436px) {
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 1rem;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
@@ -228,16 +228,16 @@ input:hover{
 
 @media (max-width: 1365px) {
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 2.5rem;
         margin-left: 1rem;
     }
@@ -281,7 +281,7 @@ input:hover{
 
 @media (max-width: 1200px) {
 
-    .main-title {
+    #customer-section .main-title {
         width: 96.5%;
         background-color: blanchedalmond;
         height: 35px;
@@ -295,7 +295,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -309,7 +309,7 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
@@ -322,7 +322,7 @@ input:hover{
 
 @media (max-width: 1100px) {
 
-    .main-title {
+    #customer-section .main-title {
         width: 96.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -336,7 +336,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -350,14 +350,14 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 5%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 2.5rem;
         margin-left: 1rem;
     }
@@ -368,7 +368,7 @@ input:hover{
 
 @media (max-width: 1000px) {
 
-    .main-title {
+    #customer-section .main-title {
         width: 96%;
         background-color: blanchedalmond;
         height: 35px;
@@ -382,7 +382,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -396,14 +396,14 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 6%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 2.5rem;
         margin-left: 0.5rem;
     }
@@ -414,7 +414,7 @@ input:hover{
 
 @media (max-width: 900px) {
 
-    .main-title {
+    #customer-section .main-title {
         width: 95.5%;
         background-color: blanchedalmond;
         height: 35px;
@@ -428,7 +428,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -442,14 +442,14 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 6%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 2.5rem;
         margin-left: 0.2rem;
     }
@@ -460,7 +460,7 @@ input:hover{
 
 @media (max-width: 800px) {
 
-    .main-title {
+    #customer-section .main-title {
         width: 95.1%;
         background-color: blanchedalmond;
         height: 35px;
@@ -474,7 +474,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -488,14 +488,14 @@ input:hover{
         top: 21%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 6%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 2.5rem;
         margin-left: 0.01rem;
     }
@@ -506,7 +506,7 @@ input:hover{
 
 @media (max-width: 767px) {
 
-    .main-title {
+    #customer-section .main-title {
         width: 95%;
         background-color: blanchedalmond;
         height: 35px;
@@ -520,7 +520,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -534,7 +534,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -544,28 +544,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 7%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 1.5rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 215px;
         height: 35px;
         border: none;
@@ -574,7 +574,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 46%;
         width: 95.5%;
@@ -587,7 +587,7 @@ input:hover{
         opacity: 0.7;
     }
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
         height: 110vh;
         background-color: rgba(0,0,0,0.6);
@@ -599,7 +599,7 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
         height: 110%;
     }
@@ -610,7 +610,7 @@ input:hover{
 
 @media (max-width: 700px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
         height: 110vh;
         background-color: rgba(0,0,0,0.6);
@@ -622,12 +622,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
         height: 110%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 94.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -641,7 +641,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -655,7 +655,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -665,28 +665,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 8%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 3rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 215px;
         height: 35px;
         border: none;
@@ -695,7 +695,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 46%;
         width: 95.5%;
@@ -714,7 +714,7 @@ input:hover{
 
 @media (max-width: 669px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
         height: 115vh;
         background-color: rgba(0,0,0,0.6);
@@ -726,12 +726,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
         height: 115%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 94.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -745,7 +745,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -759,7 +759,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -769,28 +769,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 8%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 3rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 215px;
         height: 35px;
         border: none;
@@ -799,7 +799,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 45%;
         width: 95.5%;
@@ -812,11 +812,11 @@ input:hover{
         opacity: 0.7;
     }
 
-    .modal-body {
+    #customer-section .modal-body {
         font-size: 0.9rem;
     }
 
-    .modal .modal-footer .btn {
+    #customer-section .modal .modal-footer .btn {
         border: none;
         font-size: 0.9rem;
         width: 98px;
@@ -831,9 +831,9 @@ input:hover{
 
 @media (max-width: 654px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
-        height: 130vh;
+        height: 120vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -843,12 +843,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
-        height: 130%;
+        height: 120%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 94.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -862,7 +862,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -876,7 +876,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -886,28 +886,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 8%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 3rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -916,7 +916,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 47%;
         width: 95%;
@@ -927,23 +927,6 @@ input:hover{
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
-    }
-
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .home-image {
-        width: 400%;
-        height: 110%;
     }
 
     .modal-body {
@@ -965,9 +948,9 @@ input:hover{
 
 @media (max-width: 637px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
-        height: 140vh;
+        height: 120vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -977,12 +960,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
-        height: 140%;
+        height: 120%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 94.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -996,7 +979,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1010,7 +993,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1020,28 +1003,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 8%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 3rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -1050,7 +1033,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 47%;
         width: 95%;
@@ -1061,23 +1044,6 @@ input:hover{
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
-    }
-
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .home-image {
-        width: 400%;
-        height: 110%;
     }
 
     .modal-body {
@@ -1099,9 +1065,9 @@ input:hover{
 
 @media (max-width: 621px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
-        height: 140vh;
+        height: 120vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -1111,12 +1077,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
-        height: 140%;
+        height: 120%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 94.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -1130,7 +1096,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1144,7 +1110,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1154,28 +1120,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 8%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 3rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -1184,7 +1150,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 52%;
         width: 95%;
@@ -1195,23 +1161,6 @@ input:hover{
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
-    }
-
-    .hero-section::before {
-        width: 100vw;
-        height: 110vh;
-        background-color: rgba(0,0,0,0.6);
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .home-image {
-        width: 400%;
-        height: 110%;
     }
 
     .modal-body {
@@ -1233,7 +1182,7 @@ input:hover{
 
 @media (max-width: 620px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
         height: 130vh;
         background-color: rgba(0,0,0,0.6);
@@ -1245,12 +1194,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
         height: 130%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 94.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -1264,7 +1213,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1278,7 +1227,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1288,28 +1237,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 8%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 3rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -1318,7 +1267,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 54%;
         width: 95%;
@@ -1350,9 +1299,9 @@ input:hover{
 
 @media (max-width: 601px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
-        height: 150vh;
+        height: 130vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -1362,12 +1311,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
-        height: 150%;
+        height: 130%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 94.3%;
         background-color: blanchedalmond;
         height: 35px;
@@ -1381,7 +1330,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1395,7 +1344,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 25px;
         height: 25px;
 
@@ -1405,28 +1354,28 @@ input:hover{
         left: 2.5%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 8%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         margin-top: 3rem;
         margin-left: 3.8rem;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -1435,7 +1384,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 54%;
         width: 95%;
@@ -1467,9 +1416,9 @@ input:hover{
 
 @media (max-width: 575px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
-        height: 160vh;
+        height: 130vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -1479,12 +1428,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
-        height: 160%;
+        height: 130%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 93%;
         background-color: blanchedalmond;
         height: 35px;
@@ -1498,7 +1447,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1512,7 +1461,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 20px;
         height: 20px;
 
@@ -1522,7 +1471,7 @@ input:hover{
         left: 4%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         font-size: 0.9rem;
         position: absolute;
@@ -1530,20 +1479,20 @@ input:hover{
         left: 10%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         display: none;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 1rem;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 100px;
         height: 35px;
         border: none;
@@ -1553,7 +1502,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 60%;
         width: 95%;
@@ -1566,7 +1515,7 @@ input:hover{
         opacity: 0.7;
     }
 
-    #newCusBtn {
+    #customer-section #newCusBtn {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: forestgreen;
@@ -1576,11 +1525,11 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #newCusBtn:hover {
+    #customer-section #newCusBtn:hover {
         background-color: #176e17;
     }
 
-    #viewAllCus {
+    #customer-section #viewAllCus {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: #b67244;
@@ -1590,17 +1539,17 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #viewAllCus:hover {
+    #customer-section #viewAllCus:hover {
         background-color: #a45b33;
     }
 
-    input {
+    #customer-section input {
         height: 32px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
         font-size: 0.9rem;
     }
 
-    input:hover{
+    #customer-section input:hover{
         border: 3px solid green;
     }
 
@@ -1622,7 +1571,7 @@ input:hover{
 
 @media (max-width: 533px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
         height: 130vh;
         background-color: rgba(0,0,0,0.6);
@@ -1634,12 +1583,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
         height: 130%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 93%;
         background-color: blanchedalmond;
         height: 35px;
@@ -1653,7 +1602,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1667,7 +1616,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 20px;
         height: 20px;
 
@@ -1677,7 +1626,7 @@ input:hover{
         left: 4%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         font-size: 0.9rem;
         position: absolute;
@@ -1685,20 +1634,20 @@ input:hover{
         left: 10%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         display: none;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 1rem;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 100px;
         height: 35px;
         border: none;
@@ -1708,7 +1657,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 60%;
         width: 95%;
@@ -1721,7 +1670,7 @@ input:hover{
         opacity: 0.7;
     }
 
-    #newCusBtn {
+    #customer-section #newCusBtn {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: forestgreen;
@@ -1731,11 +1680,11 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #newCusBtn:hover {
+    #customer-section #newCusBtn:hover {
         background-color: #176e17;
     }
 
-    #viewAllCus {
+    #customer-section #viewAllCus {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: #b67244;
@@ -1745,17 +1694,17 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #viewAllCus:hover {
+    #customer-section #viewAllCus:hover {
         background-color: #a45b33;
     }
 
-    input {
+    #customer-section input {
         height: 32px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
         font-size: 0.9rem;
     }
 
-    input:hover{
+    #customer-section input:hover{
         border: 3px solid green;
     }
 
@@ -1777,7 +1726,7 @@ input:hover{
 
 @media (max-width: 510px) {
 
-    .hero-section::before {
+    #customer-section::before {
         width: 100vw;
         height: 130vh;
         background-color: rgba(0,0,0,0.6);
@@ -1789,12 +1738,12 @@ input:hover{
         left: 0;
     }
 
-    .home-image {
+    #customer-section .home-image {
         width: 400%;
         height: 130%;
     }
 
-    .main-title {
+    #customer-section .main-title {
         width: 93%;
         background-color: blanchedalmond;
         height: 35px;
@@ -1808,7 +1757,7 @@ input:hover{
         top: 14%;
     }
 
-    .main-section {
+    #customer-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1822,7 +1771,7 @@ input:hover{
         top: 21%;
     }
 
-    #customerImg {
+    #customer-section .customerImg {
         width: 20px;
         height: 20px;
 
@@ -1832,7 +1781,7 @@ input:hover{
         left: 4%;
     }
 
-    #title {
+    #customer-section .title {
         font-weight: 500;
         font-size: 0.9rem;
         position: absolute;
@@ -1840,20 +1789,20 @@ input:hover{
         left: 10%;
     }
 
-    .customer-page-photo {
+    #customer-section .customer-page-photo {
         display: none;
     }
 
-    .add-to-cart {
+    #customer-section .add-to-cart {
         margin: 1rem;
     }
 
-    .view {
+    #customer-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #customer-section form .search-btn {
         width: 100px;
         height: 35px;
         border: none;
@@ -1863,7 +1812,7 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .customer-table {
+    #customer-section .customer-table {
         position: absolute;
         height: 60%;
         width: 95%;
@@ -1876,7 +1825,7 @@ input:hover{
         opacity: 0.7;
     }
 
-    #newCusBtn {
+    #customer-section #newCusBtn {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: forestgreen;
@@ -1886,11 +1835,11 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #newCusBtn:hover {
+    #customer-section #newCusBtn:hover {
         background-color: #176e17;
     }
 
-    #viewAllCus {
+    #customer-section #viewAllCus {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: #b67244;
@@ -1900,26 +1849,18 @@ input:hover{
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #viewAllCus:hover {
+    #customer-section #viewAllCus:hover {
         background-color: #a45b33;
     }
 
-    input {
+    #customer-section input {
         height: 32px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
         font-size: 0.9rem;
     }
 
-    input:hover{
+    #customer-section input:hover{
         border: 3px solid green;
-    }
-
-    .modal .modal-footer .btn {
-        border: none;
-        width: 98px;
-        height: 40px;
-        margin: 8px;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
     .modal-body {
