@@ -1,6 +1,22 @@
 
 /* -----------Special On Order Form----------- */
 
+#order-section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#order-section::before {
+    background-color: rgba(0,0,0,0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 .main-title {
     width: 97.2%;
     background-color: blanchedalmond;
