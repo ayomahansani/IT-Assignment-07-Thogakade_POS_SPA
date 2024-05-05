@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/thogakade_POS.iml" filepath="$PROJECT_DIR$/thogakade_POS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thogakade_POS_SPA.iml" filepath="$PROJECT_DIR$/thogakade_POS_SPA.iml" />
     </modules>
   </component>
 </project>

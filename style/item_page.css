@@ -112,7 +112,7 @@ input:hover{
     opacity: 0.9;
 }
 
-.modal .modal-body {
+#newItemModal .modal-body, #viewAllItemsModal .modal-body {
     background-color: #d9c0a0;
     color: #176e17;
 }
