@@ -81,13 +81,13 @@
     height: 100vh;
 }
 
-.hero-section {
+#home-section {
     width: 100vw;
     height: 100vh;
     position: relative;
 }
 
-.hero-section::before {
+#home-section::before {
     background-color: rgba(0,0,0,0.6);
     content: "";
     position: absolute;
@@ -333,13 +333,13 @@
         box-shadow: 4px 4px 7px black;
     }
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
     }
 
-    .hero-section .card-set {
+    #home-section .card-set {
         width: 90%;
         height: 10%;
         position: absolute;
@@ -403,13 +403,13 @@
         box-shadow: 4px 4px 7px black;
     }
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
     }
 
-    .hero-section .card-set {
+    #home-section .card-set {
         width: 90%;
         height: 10%;
         position: absolute;
@@ -435,7 +435,7 @@
 
 @media (max-width: 767px) {
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -490,7 +490,7 @@
 
 @media (max-width: 720px) {
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -561,7 +561,7 @@
 
 @media (max-width: 658px) {
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -631,7 +631,7 @@
 
 @media (max-width: 618px) {
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -701,7 +701,7 @@
 
 @media (max-width: 588px) {
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -772,7 +772,7 @@
 
 @media (max-width: 533px) {
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -869,7 +869,7 @@
 
 @media (max-width: 526px) {
 
-    .hero-section {
+    #home-section {
         width: 100vw;
         height: 100vh;
         position: relative;
