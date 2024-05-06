@@ -393,29 +393,29 @@
 
 @media (max-width: 1176px) {
 
-    .calculator {
+    #order-section .calculator {
         margin-left: 11rem;
     }
 
-    .selectItem {
+    #order-section .selectItem {
         margin-left: 9rem;
     }
 
-    .invoice {
+    #order-section .invoice {
         margin-left: 7rem;
     }
 
-    .add-to-cart {
+    #order-section .add-to-cart {
         margin: 0;
     }
 
-    #viewBtn {
+    #order-section #viewBtn {
         font-size: 0.9rem;
         color: white;
         background-color: #a97240;
     }
 
-    #addBtn {
+    #order-section #addBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -425,7 +425,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #purchaseBtn, #viewBtn {
+    #order-section #purchaseBtn, #viewBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -442,29 +442,29 @@
 
 @media (max-width: 1126px) {
 
-    .calculator {
+    #order-section .calculator {
         margin-left: 10rem;
     }
 
-    .selectItem {
+    #order-section .selectItem {
         margin-left: 8rem;
     }
 
-    .invoice {
+    #order-section .invoice {
         margin-left: 6rem;
     }
 
-    .add-to-cart {
+    #order-section .add-to-cart {
         margin: 0;
     }
 
-    #viewBtn {
+    #order-section #viewBtn {
         font-size: 0.9rem;
         color: white;
         background-color: #a97240;
     }
 
-    #addBtn {
+    #order-section #addBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -474,7 +474,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #purchaseBtn, #viewBtn {
+    #order-section #purchaseBtn, #viewBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -491,29 +491,29 @@
 
 @media (max-width: 1077px) {
 
-    .calculator {
+    #order-section .calculator {
         margin-left: 9rem;
     }
 
-    .selectItem {
+    #order-section .selectItem {
         margin-left: 7rem;
     }
 
-    .invoice {
+    #order-section .invoice {
         margin-left: 5rem;
     }
 
-    .add-to-cart {
+    #order-section .add-to-cart {
         margin: 0;
     }
 
-    #viewBtn {
+    #order-section #viewBtn {
         font-size: 0.9rem;
         color: white;
         background-color: #a97240;
     }
 
-    #addBtn {
+    #order-section #addBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -523,7 +523,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #purchaseBtn, #viewBtn {
+    #order-section #purchaseBtn, #viewBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -534,19 +534,19 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #title {
+    #order-section #title {
         font-weight: 500;
         position: absolute;
 
         left: 5%;
     }
 
-    #forms {
+    #order-section #forms {
         display: flex;
         justify-content: space-around;
     }
 
-    .form_div {
+    #order-section .form_div {
         margin: 1rem;
         background-color: burlywood;
         position: relative;
@@ -559,29 +559,29 @@
 
 @media (max-width: 1017px) {
 
-    .calculator {
+    #order-section .calculator {
         margin-left: 9rem;
     }
 
-    .selectItem {
+    #order-section .selectItem {
         margin-left: 7rem;
     }
 
-    .invoice {
+    #order-section .invoice {
         margin-left: 5rem;
     }
 
-    .add-to-cart {
+    #order-section .add-to-cart {
         margin: 0;
     }
 
-    #viewBtn {
+    #order-section #viewBtn {
         font-size: 0.9rem;
         color: white;
         background-color: #a97240;
     }
 
-    #addBtn {
+    #order-section #addBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -591,7 +591,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #purchaseBtn, #viewBtn {
+    #order-section #purchaseBtn, #viewBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -602,19 +602,19 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #title {
+    #order-section #title {
         font-weight: 500;
         position: absolute;
 
         left: 5%;
     }
 
-    #forms {
+    #order-section #forms {
         display: flex;
         justify-content: space-around;
     }
 
-    .form_div {
+    #order-section .form_div {
         margin: 0.5rem;
         background-color: burlywood;
         position: relative;
@@ -627,14 +627,14 @@
 
 @media (max-width: 1000px) {
 
-    #forms {
+    #order-section #forms {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .form_div {
+    #order-section .form_div {
         margin: 1rem;
         width: 55em;
         background-color: burlywood;
@@ -643,13 +643,13 @@
         opacity: 0.9;
     }
 
-    .form {
+    #order-section .form {
         justify-content: center;
         align-items: center;
         display: flex;
     }
 
-    .hero-section::before {
+    #order-section::before {
         width: 100vw;
         height: 170vh;
         background-color: rgba(0,0,0,0.6);
@@ -661,12 +661,12 @@
         left: 0;
     }
 
-    .home-image {
+    #order-section .home-image {
         width: 400%;
         height: 170%;
     }
 
-    .main-title {
+    #order-section .main-title {
         width: 96%;
         background-color: blanchedalmond;
         height: 35px;
@@ -680,7 +680,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #order-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -694,7 +694,7 @@
         top: 21%;
     }
 
-    #orderDate {
+    #order-section #orderDate {
         width: 95%;
     }
 }
