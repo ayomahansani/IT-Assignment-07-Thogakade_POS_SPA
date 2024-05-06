@@ -712,14 +712,14 @@
 
 @media (max-width: 940px) {
 
-    #forms {
+    #order-section #forms {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .form_div {
+    #order-section .form_div {
         margin: 1rem;
         width: 50em;
         background-color: burlywood;
@@ -728,13 +728,13 @@
         opacity: 0.9;
     }
 
-    .form {
+    #order-section .form {
         justify-content: center;
         align-items: center;
         display: flex;
     }
 
-    .hero-section::before {
+    #order-section::before {
         width: 100vw;
         height: 170vh;
         background-color: rgba(0,0,0,0.6);
@@ -746,12 +746,12 @@
         left: 0;
     }
 
-    .home-image {
+    #order-section .home-image {
         width: 400%;
         height: 170%;
     }
 
-    .main-title {
+    #order-section .main-title {
         width: 96%;
         background-color: blanchedalmond;
         height: 35px;
@@ -765,7 +765,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #order-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -779,11 +779,11 @@
         top: 21%;
     }
 
-    #orderDate {
+    #order-section #orderDate {
         width: 95%;
     }
 
-    #title {
+    #order-section #title {
         font-weight: 500;
         position: absolute;
 
@@ -795,14 +795,14 @@
 
 @media (max-width: 860px) {
 
-    #forms {
+    #order-section #forms {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .form_div {
+    #order-section .form_div {
         margin: 1rem;
         width: 45em;
         background-color: burlywood;
@@ -811,13 +811,13 @@
         opacity: 0.9;
     }
 
-    .form {
+    #order-section .form {
         justify-content: center;
         align-items: center;
         display: flex;
     }
 
-    .hero-section::before {
+    #order-section::before {
         width: 100vw;
         height: 170vh;
         background-color: rgba(0,0,0,0.6);
@@ -829,12 +829,12 @@
         left: 0;
     }
 
-    .home-image {
+    #order-section .home-image {
         width: 400%;
         height: 170%;
     }
 
-    .main-title {
+    #order-section .main-title {
         width: 95%;
         background-color: blanchedalmond;
         height: 35px;
@@ -848,7 +848,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #order-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -862,16 +862,16 @@
         top: 21%;
     }
 
-    #orderDate {
+    #order-section #orderDate {
         width: 95%;
     }
 
-    #viewBtn {
+    #order-section #viewBtn {
         color: white;
         background-color: #a97240;
     }
 
-    #addBtn {
+    #order-section #addBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -881,7 +881,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #purchaseBtn, #viewBtn {
+    #order-section #purchaseBtn, #order-section #viewBtn {
         font-size: 0.8rem;
         font-weight: 600;
         border: none;
@@ -892,12 +892,12 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .form .form-label {
+    #order-section .form .form-label {
         font-size: 0.9rem;
         color: #176e17;
     }
 
-    #title {
+    #order-section #title {
         font-weight: 500;
         position: absolute;
 
@@ -910,14 +910,14 @@
 
 @media (max-width: 800px) {
 
-    #forms {
+    #order-section #forms {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .form_div {
+    #order-section .form_div {
         margin: 1rem;
         width: 44em;
         background-color: burlywood;
@@ -926,13 +926,13 @@
         opacity: 0.9;
     }
 
-    .form {
+    #order-section .form {
         justify-content: center;
         align-items: center;
         display: flex;
     }
 
-    .hero-section::before {
+    #order-section::before {
         width: 100vw;
         height: 170vh;
         background-color: rgba(0,0,0,0.6);
@@ -944,12 +944,12 @@
         left: 0;
     }
 
-    .home-image {
+    #order-section .home-image {
         width: 400%;
         height: 170%;
     }
 
-    .main-title {
+    #order-section .main-title {
         width: 95%;
         background-color: blanchedalmond;
         height: 35px;
@@ -963,7 +963,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #order-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -977,16 +977,16 @@
         top: 21%;
     }
 
-    #orderDate {
+    #order-section #orderDate {
         width: 95%;
     }
 
-    #viewBtn {
+    #order-section #viewBtn {
         color: white;
         background-color: #a97240;
     }
 
-    #addBtn {
+    #order-section #addBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -996,7 +996,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #purchaseBtn, #viewBtn {
+    #order-section #purchaseBtn, #order-section #viewBtn {
         font-size: 0.8rem;
         font-weight: 600;
         border: none;
@@ -1007,12 +1007,12 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .form .form-label {
+    #order-section .form .form-label {
         font-size: 0.9rem;
         color: #176e17;
     }
 
-    #title {
+    #order-section #title {
         font-weight: 500;
         position: absolute;
 
@@ -1025,14 +1025,14 @@
 
 @media (max-width: 760px) {
 
-    #forms {
+    #order-section #forms {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .form_div {
+    #order-section .form_div {
         margin: 1rem;
         width: 42em;
         background-color: burlywood;
@@ -1041,13 +1041,13 @@
         opacity: 0.9;
     }
 
-    .form {
+    #order-section .form {
         justify-content: center;
         align-items: center;
         display: flex;
     }
 
-    .hero-section::before {
+    #order-section::before {
         width: 100vw;
         height: 170vh;
         background-color: rgba(0,0,0,0.6);
@@ -1059,12 +1059,12 @@
         left: 0;
     }
 
-    .home-image {
+    #order-section .home-image {
         width: 400%;
         height: 170%;
     }
 
-    .main-title {
+    #order-section .main-title {
         width: 94.5%;
         background-color: blanchedalmond;
         height: 35px;
@@ -1078,7 +1078,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #order-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -1092,16 +1092,16 @@
         top: 21%;
     }
 
-    #orderDate {
+    #order-section #orderDate {
         width: 95%;
     }
 
-    #viewBtn {
+    #order-section #viewBtn {
         color: white;
         background-color: #a97240;
     }
 
-    #addBtn {
+    #order-section #addBtn {
         font-size: 0.9rem;
         font-weight: 600;
         border: none;
@@ -1111,7 +1111,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #purchaseBtn, #viewBtn {
+    #order-section #purchaseBtn, #order-section #viewBtn {
         font-size: 0.8rem;
         font-weight: 600;
         border: none;
@@ -1122,12 +1122,12 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .form .form-label {
+    #order-section .form .form-label {
         font-size: 0.8rem;
         color: #176e17;
     }
 
-    #title {
+    #order-section #title {
         font-weight: 500;
         position: absolute;
 
