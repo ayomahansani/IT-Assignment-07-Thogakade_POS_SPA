@@ -28,15 +28,14 @@
     width: 45%;
     height: 10%;
     font-size: 14px;
-    left: 0;
-    right: 0;
-    margin: auto;
+    left: 31%;
     bottom: 0;
 }
 
 .register-background form .form-down span{
+    color: #0078ff;
     margin-left: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0078ff;;
 }
 
 .register-background form .bg {
@@ -119,7 +118,7 @@
         width: 65%;
         height: 10%;
         font-size: 14px;
-        left: 21%;
+        left: 26%;
         bottom: 0;
     }
 }

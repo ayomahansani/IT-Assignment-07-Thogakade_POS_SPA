@@ -33,8 +33,9 @@
 }
 
 .login-background form .form-down span{
+    color: #0078ff;
     margin-left: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0078ff;;
 }
 
 .login-background form .bg {
