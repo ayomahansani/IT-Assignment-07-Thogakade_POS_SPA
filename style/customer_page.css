@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
 }
 
 #customer-section::before {
@@ -84,17 +85,17 @@
     background-color: goldenrod;
 }
 
-#customer-section form .search-input {
+form .search-input {
     border: none;
     background-color: #eed8c7;
 }
 
-#customer-section input {
+input {
     height: 35px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
 }
 
-#customer-section input:hover{
+input:hover{
     border: 3px solid green;
 }
 
@@ -408,6 +409,16 @@
         margin-left: 0.5rem;
     }
 
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 991px) {
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 1rem;
+    }
 }
 
 /*------------------------------------------*/
@@ -812,11 +823,12 @@
         opacity: 0.7;
     }
 
-    #customer-section .modal-body {
+    .modal .modal-body .form-label {
+        color: #176e17;
         font-size: 0.9rem;
     }
 
-    #customer-section .modal .modal-footer .btn {
+    .modal-footer .btn {
         border: none;
         font-size: 0.9rem;
         width: 98px;
@@ -929,16 +941,17 @@
         opacity: 0.7;
     }
 
-    .modal-body {
+    .modal .modal-body .form-label {
+        color: #176e17;
         font-size: 0.8rem;
     }
 
-    .modal .modal-footer .btn {
+    .modal-footer .btn {
         border: none;
         font-size: 0.8rem;
         width: 98px;
         height: 40px;
-        margin: 0;
+        margin: 10px;
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
@@ -1045,6 +1058,20 @@
         background-color: burlywood;
         opacity: 0.7;
     }
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
+    }
+
+    .modal-footer .btn {
+        border: none;
+        font-size: 0.8rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
 }
 
 /*------------------------------------------*/
@@ -1147,6 +1174,20 @@
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
+    }
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
+    }
+
+    .modal-footer .btn {
+        border: none;
+        font-size: 0.8rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 }
 
@@ -1252,6 +1293,20 @@
         opacity: 0.7;
     }
 
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
+    }
+
+    .modal-footer .btn {
+        border: none;
+        font-size: 0.8rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
 }
 
 /*------------------------------------------*/
@@ -1354,6 +1409,20 @@
         box-shadow: 3px 3px 8px black;
         background-color: burlywood;
         opacity: 0.7;
+    }
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
+    }
+
+    .modal-footer .btn {
+        border: none;
+        font-size: 0.8rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 }
 
@@ -1488,14 +1557,18 @@
         background-color: #a45b33;
     }
 
-    #customer-section input {
+    input {
         height: 32px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
-        font-size: 0.9rem;
     }
 
-    #customer-section input:hover{
+    input:hover{
         border: 3px solid green;
+    }
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
     }
 
     #newCustomerModal .modal-footer button {
@@ -1639,14 +1712,26 @@
         background-color: #a45b33;
     }
 
-    #customer-section input {
-        height: 32px;
-        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
-        font-size: 0.9rem;
+    #searchCustomer {
+        font-size: 0.8rem;
     }
 
-    #customer-section input:hover{
+    #newCustomerModal .search-input {
+        font-size: 0.8rem;
+    }
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+    }
+
+    input:hover{
         border: 3px solid green;
+    }
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
     }
 
     #newCustomerModal .modal-footer button {
@@ -1790,17 +1875,25 @@
         background-color: #a45b33;
     }
 
-    #customer-section input {
-        height: 32px;
-        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
-        font-size: 0.9rem;
+    #searchCustomer {
+        font-size: 0.8rem;
     }
 
-    #customer-section input:hover{
+    #newCustomerModal .search-input {
+        font-size: 0.8rem;
+    }
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+    }
+
+    input:hover{
         border: 3px solid green;
     }
 
-    #newCustomerModal .modal-body {
+    .modal .modal-body .form-label {
+        color: #176e17;
         font-size: 0.8rem;
     }
 
