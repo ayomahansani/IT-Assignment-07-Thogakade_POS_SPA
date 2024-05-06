@@ -201,7 +201,7 @@
 
 @media (max-width: 1186px) {
 
-    .main-title {
+    #item-section .main-title {
         width: 96.5%;
         background-color: blanchedalmond;
         height: 35px;
@@ -215,7 +215,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #item-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -229,16 +229,16 @@
         top: 21%;
     }
 
-    .add-to-cart {
+    #item-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #item-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    #title {
+    #item-section .title {
         font-weight: 500;
         position: absolute;
 
