@@ -351,6 +351,16 @@
 
 /*------------------------------------------*/
 
+@media (max-width: 991px) {
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 1rem;
+    }
+}
+
+/*------------------------------------------*/
+
 @media (max-width: 923px) {
 
     #item-section .main-title {
@@ -596,6 +606,26 @@
 
 /*------------------------------------------*/
 
+@media (max-width: 669px) {
+
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.9rem;
+    }
+
+    .modal-footer .btn {
+        border: none;
+        font-size: 0.9rem;
+        width: 98px;
+        height: 40px;
+        margin: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+}
+
+/*------------------------------------------*/
+
 @media (max-width: 654px) {
 
     #item-section .main-title {
@@ -695,13 +725,14 @@
         height: 110%;
     }
 
-    .modal-body {
-        font-size: 0.9rem;
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
     }
 
-    #newItemModal .modal-footer .btn {
+    .modal-footer .btn {
         border: none;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         width: 98px;
         height: 40px;
         margin: 10px;
@@ -811,13 +842,14 @@
         height: 110%;
     }
 
-    .modal-body {
-        font-size: 0.9rem;
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
     }
 
-    #newItemModal .modal-footer .btn {
+    .modal-footer .btn {
         border: none;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         width: 98px;
         height: 40px;
         margin: 10px;
@@ -927,13 +959,14 @@
         height: 110%;
     }
 
-    .modal-body {
-        font-size: 0.9rem;
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
     }
 
-    #newItemModal .modal-footer .btn {
+    .modal-footer .btn {
         border: none;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         width: 98px;
         height: 40px;
         margin: 10px;
@@ -1080,13 +1113,14 @@
         border: 3px solid green;
     }
 
-    .modal-body {
-        font-size: 0.9rem;
+    .modal .modal-body .form-label {
+        color: #176e17;
+        font-size: 0.8rem;
     }
 
-    #newItemModal .modal-footer .btn {
+    .modal-footer .btn {
         border: none;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         width: 98px;
         height: 40px;
         margin: 10px;
@@ -1222,33 +1256,15 @@
         background-color: #a45b33;
     }
 
-    #item-section input {
+    input {
         height: 32px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
         font-size: 0.9rem;
     }
 
-    #item-section input:hover{
+    input:hover{
         border: 3px solid green;
     }
-
-    .modal-body {
-        font-size: 0.9rem;
-    }
-
-    #newItemModal .modal-footer .btn {
-        border: none;
-        font-size: 0.9rem;
-        width: 98px;
-        height: 40px;
-        margin: 9px;
-        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
-    }
-}
-
-/*------------------------------------------*/
-
-@media (max-width: 500px) {
 
     .modal-body {
         font-size: 0.8rem;
@@ -1261,6 +1277,74 @@
         height: 40px;
         margin: 8px;
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 510px) {
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+        font-size: 0.9rem;
+    }
+
+    input:hover{
+        border: 3px solid green;
+    }
+
+    .modal input:hover{
+        border: 3px solid green;
+    }
+
+    .modal-body {
+        font-size: 0.8rem;
+    }
+
+    #newItemModal .modal-footer .btn {
+        border: none;
+        font-size: 0.8rem;
+        width: 98px;
+        height: 40px;
+        margin: 8px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+}
+
+/*------------------------------------------*/
+
+@media (max-width: 500px) {
+
+    input {
+        height: 32px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+        font-size: 0.9rem;
+    }
+
+    input:hover{
+        border: 3px solid green;
+    }
+
+    .modal input:hover{
+        border: 3px solid green;
+    }
+
+    .modal-body {
+        font-size: 0.8rem;
+    }
+
+    #newItemModal .modal-footer .btn {
+        border: none;
+        font-size: 0.8rem;
+        width: 98px;
+        height: 40px;
+        margin: 8px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
+    }
+
+    #newItemModal .search-input {
+        font-size: 0.8rem;
     }
 
 }
