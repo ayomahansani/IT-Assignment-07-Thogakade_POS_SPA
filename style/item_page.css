@@ -597,7 +597,7 @@
 
 @media (max-width: 654px) {
 
-    .main-title {
+    #item-section .main-title {
         width: 95%;
         background-color: blanchedalmond;
         height: 35px;
@@ -611,7 +611,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #item-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -625,37 +625,37 @@
         top: 21%;
     }
 
-    #itemImg {
+    #item-section #itemImg {
         position: absolute;
 
         top: 15%;
         left: 2.5%;
     }
 
-    #title {
+    #item-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 7%;
     }
 
-    .item-page-photo {
+    #item-section .item-page-photo {
         margin-top: 0.8rem;
         margin-left: 3.8rem;
         position: absolute;
         width: 9%;
     }
 
-    .add-to-cart {
+    #item-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #item-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #item-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -664,7 +664,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .item-table {
+    #item-section .item-table {
         position: absolute;
         height: 46%;
         width: 95.5%;
@@ -677,7 +677,7 @@
         opacity: 0.7;
     }
 
-    .hero-section::before {
+    #item-section::before {
         width: 100vw;
         height: 110vh;
         background-color: rgba(0,0,0,0.6);
@@ -689,7 +689,7 @@
         left: 0;
     }
 
-    .home-image {
+    #item-section .home-image {
         width: 400%;
         height: 110%;
     }
@@ -698,7 +698,7 @@
         font-size: 0.9rem;
     }
 
-    .modal .modal-footer .btn {
+    #newItemModal .modal .modal-footer .btn {
         border: none;
         font-size: 0.9rem;
         width: 98px;
@@ -713,7 +713,7 @@
 
 @media (max-width: 650px) {
 
-    .main-title {
+    #item-section .main-title {
         width: 95%;
         background-color: blanchedalmond;
         height: 35px;
@@ -727,7 +727,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #item-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -741,37 +741,37 @@
         top: 21%;
     }
 
-    #itemImg {
+    #item-section #itemImg {
         position: absolute;
 
         top: 15%;
         left: 2.5%;
     }
 
-    #title {
+    #item-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 7%;
     }
 
-    .item-page-photo {
+    #item-section .item-page-photo {
         margin-top: 0.8rem;
         margin-left: 3.8rem;
         position: absolute;
         width: 9%;
     }
 
-    .add-to-cart {
+    #item-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #item-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #item-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -780,7 +780,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .item-table {
+    #item-section .item-table {
         position: absolute;
         height: 46%;
         width: 95.5%;
@@ -793,7 +793,7 @@
         opacity: 0.7;
     }
 
-    .hero-section::before {
+    #item-section::before {
         width: 100vw;
         height: 110vh;
         background-color: rgba(0,0,0,0.6);
@@ -805,7 +805,7 @@
         left: 0;
     }
 
-    .home-image {
+    #item-section .home-image {
         width: 400%;
         height: 110%;
     }
@@ -814,7 +814,7 @@
         font-size: 0.9rem;
     }
 
-    .modal .modal-footer .btn {
+    #newItemModal .modal .modal-footer .btn {
         border: none;
         font-size: 0.9rem;
         width: 98px;
@@ -829,7 +829,7 @@
 
 @media (max-width: 600px) {
 
-    .main-title {
+    #item-section .main-title {
         width: 94%;
         background-color: blanchedalmond;
         height: 35px;
@@ -843,7 +843,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #item-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -857,37 +857,37 @@
         top: 21%;
     }
 
-    #itemImg {
+    #item-section #itemImg {
         position: absolute;
 
         top: 15%;
         left: 2.5%;
     }
 
-    #title {
+    #item-section .title {
         font-weight: 500;
         position: absolute;
 
         left: 7%;
     }
 
-    .item-page-photo {
+    #item-section .item-page-photo {
         margin-top: 2.3rem;
         margin-left: 3.8rem;
         position: absolute;
         width: 10%;
     }
 
-    .add-to-cart {
+    #item-section .add-to-cart {
         margin: 0;
     }
 
-    .view {
+    #item-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #item-section form .search-btn {
         width: 180px;
         height: 35px;
         border: none;
@@ -896,7 +896,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .item-table {
+    #item-section .item-table {
         position: absolute;
         height: 46%;
         width: 95.5%;
@@ -909,9 +909,9 @@
         opacity: 0.7;
     }
 
-    .hero-section::before {
+    #item-section::before {
         width: 100vw;
-        height: 140vh;
+        height: 110vh;
         background-color: rgba(0,0,0,0.6);
         content: "";
         position: absolute;
@@ -921,16 +921,16 @@
         left: 0;
     }
 
-    .home-image {
+    #item-section .home-image {
         width: 400%;
-        height: 140%;
+        height: 110%;
     }
 
     .modal-body {
         font-size: 0.9rem;
     }
 
-    .modal .modal-footer .btn {
+    #newItemModal .modal .modal-footer .btn {
         border: none;
         font-size: 0.9rem;
         width: 98px;
@@ -945,7 +945,7 @@
 
 @media (max-width: 575px) {
 
-    .hero-section::before {
+    #item-section::before {
         width: 100vw;
         height: 115vh;
         background-color: rgba(0,0,0,0.6);
@@ -957,12 +957,12 @@
         left: 0;
     }
 
-    .home-image {
+    #item-section .home-image {
         width: 400%;
         height: 115%;
     }
 
-    .main-title {
+    #item-section .main-title {
         width: 93%;
         background-color: blanchedalmond;
         height: 35px;
@@ -976,7 +976,7 @@
         top: 14%;
     }
 
-    .main-section {
+    #item-section .main-section {
         background-color: papayawhip;
         margin: 20px;
         border-radius: 10px;
@@ -990,14 +990,14 @@
         top: 21%;
     }
 
-    #itemImg {
+    #item-section #itemImg {
         position: absolute;
 
         top: 15%;
         left: 4%;
     }
 
-    #title {
+    #item-section .title {
         font-weight: 500;
         font-size: 0.9rem;
         position: absolute;
@@ -1005,20 +1005,20 @@
         left: 10%;
     }
 
-    .item-page-photo {
+    #item-section .item-page-photo {
         display: none;
     }
 
-    .add-to-cart {
+    #item-section .add-to-cart {
         margin: 1rem;
     }
 
-    .view {
+    #item-section .view {
         margin-right: 0;
         margin-left: 0;
     }
 
-    form .search-btn {
+    #item-section form .search-btn {
         width: 100px;
         height: 35px;
         border: none;
@@ -1028,7 +1028,7 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    .item-table {
+    #item-section .item-table {
         position: absolute;
         height: 48%;
         width: 95%;
@@ -1041,7 +1041,7 @@
         opacity: 0.7;
     }
 
-    #newItemBtn {
+    #item-section #newItemBtn {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: forestgreen;
@@ -1051,11 +1051,11 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #newItemBtn:hover {
+    #item-section #newItemBtn:hover {
         background-color: #176e17;
     }
 
-    #viewAllItem {
+    #item-section #viewAllItem {
         font-weight: 500;
         font-size: 0.9rem;
         background-color: #b67244;
@@ -1065,17 +1065,17 @@
         box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.64);
     }
 
-    #viewAllItem:hover {
+    #item-section #viewAllItem:hover {
         background-color: #a45b33;
     }
 
-    input {
+    #item-section input {
         height: 32px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
         font-size: 0.9rem;
     }
 
-    input:hover{
+    #item-section input:hover{
         border: 3px solid green;
     }
 
@@ -1083,7 +1083,7 @@
         font-size: 0.9rem;
     }
 
-    .modal .modal-footer .btn {
+    #newItemModal .modal .modal-footer .btn {
         border: none;
         font-size: 0.9rem;
         width: 98px;
